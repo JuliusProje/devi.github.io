@@ -26,10 +26,10 @@ $("#first").fadeIn("fast");
                }
              },
               messages: {
-               email: "Please enter a valid email address",
+               email: "S'il vous plaît, mettez une adresse email valide",
               
                password: {
-                 required: "Please enter password",
+                 required: "Veuillez entrer le mot de passe",
                 
                }
                
@@ -54,18 +54,18 @@ $(function() {
       },
       password: {
         required: true,
-        minlength: 5
+        minlength: 6
       }
     },
     
     messages: {
-      firstname: "Please enter your firstname",
-      lastname: "Please enter your lastname",
+      firstname: "Entrez votre prénom s'il vous plait",
+      lastname: "Veuillez entrer votre nom de famille",
       password: {
-        required: "Please provide a password",
-        minlength: "Your password must be at least 5 characters long"
+        required: "Veuillez fournir un mot de passe",
+        minlength: "Votre mot de passe doit contenir au moins 6 caractères"
       },
-      email: "Please enter a valid email address"
+      email: "S'il vous plaît, mettez une adresse email valide"
     },
   
     submitHandler: function(form) {
