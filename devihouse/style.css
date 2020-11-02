@@ -5,6 +5,7 @@
         }
         a{
          text-decoration:none !important;
+         color: #1dbf73 !important;
          }
          h1,h2,h3{
          font-family: 'Kaushan Script', cursive;
@@ -46,6 +47,17 @@
             -moz-transform: rotateZ(-3deg);
             -ms-transform: rotateZ(-3deg);
          }
+         .btn-primary{
+            background-color: #1dbf73 !important;
+            border-color: #1dbf73 !important;
+         }
+         .btn-primary:hover{
+            background-color: #19a463 !important;
+         }
+         .btn.focus, .btn:focus {
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(29,191,115,.25);
+        }
          .tx-tfm{
          text-transform:uppercase;
          }
