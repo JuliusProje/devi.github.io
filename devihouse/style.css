@@ -47,6 +47,10 @@
             -moz-transform: rotateZ(-3deg);
             -ms-transform: rotateZ(-3deg);
          }
+         .form-control:focus{
+            border-color: #1dbf73 !important;
+            box-shadow: 0 0 0 0.2rem rgba(29,191,115,.25) !important;
+         }
          .btn-primary{
             background-color: #1dbf73 !important;
             border-color: #1dbf73 !important;
