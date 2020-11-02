@@ -55,8 +55,7 @@
             background-color: #19a463 !important;
          }
          .btn.focus, .btn:focus {
-            outline: 0;
-            box-shadow: 0 0 0 0.2rem rgba(29,191,115,.25);
+            box-shadow: 0 0 0 0.2rem rgba(29,191,115,.25) !important;
         }
          .tx-tfm{
          text-transform:uppercase;
