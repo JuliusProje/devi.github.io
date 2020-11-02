@@ -1,7 +1,9 @@
         body{
         padding-top:4.2rem;
 		padding-bottom:4.2rem;
-		background:rgba(0, 0, 0, 0.76);
+		background-image: url(img/tools-864983_1920.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;      
         }
         a{
          text-decoration:none !important;
