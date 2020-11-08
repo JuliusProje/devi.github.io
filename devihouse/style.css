@@ -22,6 +22,7 @@
             height: 100vh;
             display: flex;
         }
+
         .myform {
             position: relative;
             display: -ms-flexbox;
@@ -114,8 +115,56 @@
 
         .card-img {
             background-color: #31BFB1;
+            -webkit-transition: all 0.5s 0s ease;
+            -moz-transition: all 0.5s 0s ease;
+            -o-transition: all 0.5s 0s ease;
+            transition: all 0.5s 0s ease;
         }
-        .card-navi {
-            display: block;
-            height: 100%;
+
+        .card {
+            -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+            -webkit-transition: all 1s 0s ease;
+            -moz-transition: all 1s 0s ease;
+            -o-transition: all 1s 0s ease;
+            transition: all 1s 0s ease;
+        }
+
+        .card-img {
+            background-color: #31BFB1;
+            -webkit-transition: all 1s 0s ease;
+            -moz-transition: all 1s 0s ease;
+            -o-transition: all 1s 0s ease;
+            transition: all 1s 0s ease;
+        }
+
+        .card-link {
+            -webkit-transition: all 1s 0s ease;
+            -moz-transition: all 1s 0s ease;
+            -o-transition: all 1s 0s ease;
+            transition: all 1s 0s ease;
+        }
+
+        .card-navi:hover .card {
+            background-color: rgba(49, 191, 177, 0.5);
+            -webkit-transition: all 1s 0s ease;
+            -moz-transition: all 1s 0s ease;
+            -o-transition: all 1s 0s ease;
+            transition: all 1s 0s ease;
+        }
+
+        .card-navi:hover .card-img {
+            background-color: #fff;
+            -webkit-transition: all 0.5s 0s ease;
+            -moz-transition: all 0.5s 0s ease;
+            -o-transition: all 0.5s 0s ease;
+            transition: all 0.5 0s ease;
+        }
+
+        .card-navi:hover .card-link {
+            color: #fff !important;
+            -webkit-transition: all 1s 0s ease;
+            -moz-transition: all 1s 0s ease;
+            -o-transition: all 1s 0s ease;
+            transition: all 1s 0s ease;
         }
