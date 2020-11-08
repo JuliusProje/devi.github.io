@@ -5,7 +5,7 @@
 
         a {
             text-decoration: none !important;
-            color: #5fb727 !important;
+            color: #31BFB1 !important;
         }
 
         h1,
@@ -41,17 +41,17 @@
         }
 
         .form-control:focus {
-            border-color: #5fb727 !important;
+            border-color: #31BFB1 !important;
             box-shadow: 0 0 0 0.2rem rgba(29, 191, 115, .25) !important;
         }
 
         .btn-primary {
-            background-color: #5fb727 !important;
-            border-color: #5fb727 !important;
+            background-color: #31BFB1 !important;
+            border-color: #31BFB1 !important;
         }
 
         .btn-primary:hover {
-            background-color: #5fb727 !important;
+            background-color: #31BFB1 !important;
         }
 
         .btn.focus,
@@ -113,5 +113,5 @@
         /* CALC Section */
 
         .card-img {
-            background-color: #5fb727;
+            background-color: #31BFB1;
         }
