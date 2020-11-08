@@ -115,3 +115,7 @@
         .card-img {
             background-color: #31BFB1;
         }
+        .card-navi {
+            display: block;
+            height: 100%;
+        }
