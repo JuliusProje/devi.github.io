@@ -15,7 +15,7 @@
         }
 
         a:hover {
-            color: #5fb727 !important;
+            color: #31BFB1 !important;
         }
 
         .wrapper {
@@ -34,7 +34,7 @@
             pointer-events: auto;
             background-color: #fff;
             background-clip: padding-box;
-            border-radius: 1.1rem;
+            border-radius: .25rem;
             outline: 0;
             max-width: 500px;
             -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
@@ -122,6 +122,7 @@
         }
 
         .card {
+            border: none !important;
             -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
             -webkit-transition: all 1s 0s ease;
@@ -167,4 +168,18 @@
             -moz-transition: all 1s 0s ease;
             -o-transition: all 1s 0s ease;
             transition: all 1s 0s ease;
+        }
+
+        /*ORDER-CREATION*/
+        .objtab {
+            padding: 1rem;
+            border-radius: .25rem;
+            -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        }
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+            background-color: #31bfb1 !important;
+        }
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link a{
+            color: #fff !important;
         }
