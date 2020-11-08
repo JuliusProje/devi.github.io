@@ -19,8 +19,8 @@
         }
 
         .wrapper {
-            display: flex;
             height: 100vh;
+            display: flex;
         }
         .myform {
             position: relative;
