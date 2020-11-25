@@ -1,28 +1,95 @@
 body {
-	background-color: #F2F4F5;
+	background-color: #F2F4F5 !important;
 }
+li,a {
+	text-decoration: none !important;
+}
+li:hover,a:hover {
+	text-decoration: none !important;
+}
+/*НАВИГАЦИЯ*/
 header {
 	background-color: #1DBF73;
 }
-.logo {
-	line-height: 43px;
-	font-size: 32px;
-	padding: 10px 0 19px 0;
+.navi{
+		height: 72px;
 }
-.user {
-	float: left;
-	text-decoration: none;
-}
-.user li {
-	display: inline-block;
-	text-decoration: none;
-	padding: 25px 0 26px 0;
-	font-size: 16px;
-}
-.pol{
+.newadv{
 	padding: 12px 25px;
 	color: #1DBF73;
 	background-color: #FFFFFF;
 	border-radius: 4px
 }
+.login,.logo,.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.login li {
+	list-style-type: none;
+	margin-left: 40px;
+}
+/*ПОИСК*/
+/*ГРУППЫ ОБЪЯВЛЕНИЙ*/
+.img-fluid{
+	border-radius: 4px;
+}
+#one{
+	background-color: #fff;
+}
+.catlink{
+	border-radius: 4px;
+	position: relative;
+	transition: all .3s;
+}
+.catlink:hover{
+-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.16);
+-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.16);
+box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.16);
+transition: all .3s;
+}
+.button{
+	position: absolute;
+	bottom: 163px;
+	left: 203px;
+	width: 195px;
+}
+.button a{
+	padding: 12px 25px;
+	background-color: rgba(29, 191, 115, 0.8); !important;
+	color: #fff !important;
+	border-radius: 4px;
+	transition: all .3s;
+}
+.button a:hover {
+	background-color: rgba(29, 191, 115, 1); !important;
+	transition: all .3s;
+}
 
+/*ПРОДУКТ*/
+.product-link {
+	background-color: #fff;
+	border-radius: 4px;
+	transition: all .3s;
+	position: relative;
+}
+.product-link:hover {
+	-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.16);
+-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.16);
+box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.16);
+transition: all .3s;
+}
+.wish-button{
+	position: absolute;
+	top: 24px;
+	left: 23px;
+	width: 100%;
+}
+.car-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.car-info li{
+	margin-left: 15px;
+}
