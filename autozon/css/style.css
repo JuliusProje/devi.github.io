@@ -26,21 +26,3 @@ header {
 	border-radius: 4px
 }
 
-
-
-.fleft {
-    float: left;
-}
-.rel {
-    position: relative;
-}
-
-form.searchmain [data-icon="search"] {
-    position: absolute;
-    left: 24px;
-    top: 24px;
-    color: #002f34;
-    font-size: 25px;
-    line-height: 1 !important;
-}
-
