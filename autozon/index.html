@@ -12,155 +12,563 @@
 <body>
 <header>
 			<div class="container">
-			<div class="row">
+			<div class="row navi ">
 				<div class="col-md-6 logo"><a href="">AVTOZON</a></div>
-				<div class="col-md-6 ">
-					<ul class="user">
-						<li><a href=""><img src="img/icon/Icon ionic-md-heart-empty.svg" alt=""></a></li>
-						<li><a href=""><span><img src="img/icon/Icon feather-user.svg" alt="">Мой профиль</span></a></li>
-						<li><a href=""><span class="pol">Подать объявление</span></a></li>
+				<div class="col-md-6 menu">
+					<ul class="login my-0">
+						<li>					
+							<a href=""><img src="img/icon/Icon ionic-md-heart-empty.svg" alt=""></a>
+						</li>
+						<li>
+							<a href=""><span><img src="img/icon/Icon feather-user.svg" alt="">Мой профиль</span></a>
+						</li>
 					</ul>
-				
+					<a class="newadv" href="">Подать объявление</a>			
 				</div>
   			</div>
   		</div>
 </header>
 
 
-<main>
-	<div class="container">
-		<div class="row"></div>
-		<div class="row"></div>
-	</div>
-</main>
-<div class="container">
-	<div class="row">
-		<form class="searchmain" id="searchmain" method="POST" action="https://www.olx.ua/list/">
-			<div class="wrapper">
-				<fieldset>
-				<div class="fblock fquery fleft clr rel active">
-					<div class="rel clr lheight16">
-						<div class="clearbox rel fleft input-container">
-							<input autocomplete="off" type="text" defaultval="13 265 737 объявлений рядом" data-cy="homepage_input_textsearch" class="fleft light large queryfield defaultval with-x-clear-button autosuggest-input {suggesturl:'https://www.olx.ua/ajax/suggest/get/'} ca2" id="headerSearch" value="" name="q">
-							<a class="clear-input-button hidden" href="" data-icon="close"></a>
+<main>	
+	<section id="one">
+		<div class="container py-4 my-4">
+			<h2 class="catname">Главные рубрики</h2>
+			<div class="row my-4">
+				<div class="col-md-6">
+					<div class="catlink">
+						<img class="img-fluid" src="img/auto-parts.4bd633b0.jpg" alt="">
+						<div class="button text-center">
+							<a href="">Автозапчасти</a>
 						</div>
-					<i data-icon="search"></i>
-		<div id="autosuggest-div"></div>
-	</div>
-</div>
-
-<div class="fblock fleft fcity clr rel">
-	<div class="locationrequest  has-dist-picker" id="locationBox">
-	<div class="clr rel">
-		<div class="rel fleft input-container">
-			<input id="cityField" autocomplete="off" type="text" data-cy="homepage_input_locationsearch" defaultval="Вся Украина" defaultalternative="Введите город" value="" class="with-x-clear-button fleft defaultval light ca2 cityfield">
-			<div class="cityfield" id="cityFieldGray">
-				<span class="fbold vishid"></span><span class="color-9"> </span>
-			</div>
-			<a href="#" class="clear-input-button hidden" data-icon="close"></a>
-			<div class="distanceseparator abs"></div>
-			<i data-icon="location"></i>
-			<div class="proposals hidden" id="proposalContainer">
-				<div class="lastbox">
-					<p>Недавно избранные:</p>
-					<ul id="last-locations-ul">
-					</ul>
+					</div>
 				</div>
-				<div class="abs categorySelectContainer">
-										<ul class="categorySelectList regionsList">
-					</ul>
+				<div class="col-md-6">
+					<div class="catlink">
+						<img class="img-fluid" src="img/cars.07fcdbbc.jpg" alt="">
+						<div class="button text-center">
+							<a href="">Автомобили</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<input class="autosuggest-geo-input" type="hidden" name="search[city_id]" value="">
-			<input class="autosuggest-geo-input-region" type="hidden" name="search[region_id]" value="">
-			<input class="autosuggest-geo-district-input" type="hidden" name="search[district_id]" value="0">
-							<input class="autosuggest-geo-dist-input" type="hidden" name="search[dist]" value="">
-						
-			<div class="autosuggest-geo-div suggestmain">
-				<!-- via ajax -->
-			<ul id="autosuggest-geo-ul" data-cy="homepage_link_autosuggest" class="suggestgeo hidden bgfff normal br-3 abs"></ul></div>
-			<div id="geo-suggestions" class="chooselocation br3 hidden">
-				<div class="target abs"></div>
-				<a id="geo-suggestions-close" href="#" class="abs close" data-icon="close"></a>
-				<p>Где Вы:</p>
-				<div id="geo-suggestions-options" class="items"></div>
 			</div>
-		</div>
-					<dl class="distancelist fleft  " id="distanceSelect">
-				<dt>
-					<a href="#" class="topLink">
-						<span class="label">+ 0 km</span>
-						<span class="value">0</span>
-					</a>
-				</dt>
-				<dd>
-					<ul style="display: none;" class="hidden">
-												<li class="">
-							<a href="#" class="dist">+ 0 km<span class="value">0</span></a>
-						</li>
-												<li class="">
-							<a href="#" class="dist">+ 2 km<span class="value">2</span></a>
-						</li>
-												<li class="">
-							<a href="#" class="dist">+ 5 km<span class="value">5</span></a>
-						</li>
-												<li class="">
-							<a href="#" class="dist">+ 10 km<span class="value">10</span></a>
-						</li>
-												<li class="">
-							<a href="#" class="dist">+ 15 km<span class="value">15</span></a>
-						</li>
-												<li class="">
-							<a href="#" class="dist">+ 30 km<span class="value">30</span></a>
-						</li>
-												<li class="">
-							<a href="#" class="dist">+ 50 km<span class="value">50</span></a>
-						</li>
-												<li class="">
-							<a href="#" class="dist">+ 75 km<span class="value">75</span></a>
-						</li>
-												<li class="">
-							<a href="#" class="dist">+ 100 km<span class="value">100</span></a>
-						</li>
-											</ul>
-				</dd>
-			</dl>
-			</div>
-		<div class="suggest bottom abs zi2 br3 error hidden" id="cityFieldError">
-		<p>Выберите город или почтовый код</p>
-	</div>
-	</div></div>
-			<span class="button big4 fright br3">
-				<i data-icon="search"></i>
-				<input id="submit-searchmain" data-cy="homepage_button_search" type="submit" value="Поиск" class="cfff x-large margintop-1">
-			</span>
-		</fieldset>
-	</div>
-</form>ss
-	</div>
-</div>
+	</section>
+	<section id="two">
+		<div class="container">
+					<div class="row my-3">
+						<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+										<div class="row my-3">
+						<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+										<div class="row my-3">
+						<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+										<div class="row my-3">
+						<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+												<div class="col-md-3">
+							<div class="product-link p-3">
+								<div class="image">
+									<a href="">
+										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+									</a>
+								</div>
+								<div class="year">
+								2006
+								</div>
+								<div class="inner">
+									<h4>
+										<a href="">
+											<strong>
+												BMW M6 Sport Hybrid
+											</strong>
+										</a>
+									</h4>
+								</div>
+								<div class="price">$1000</div>
+								<ul class="car-info p-0">
+									<li>БУ</li>
+									<li>2006</li>
+									<li>Автомат</li>
+									<li>Бензин</li>
+								</ul>
+								<div class="wish-button">
+									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>		
+	</section>
+</main>
+<footer>
+	
+</footer>
 
-
-<section>
-	<div class="container">
-		<div class="row">
-			<h2>Главные рубрики</h2>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<img src="img/auto-parts.4bd633b0.jpg" class="img-fluid" alt="Responsive image">
-				<a href="#"></a>
-			</div>
-			<div class="col-md-6">
-				<img src="img/cars.07fcdbbc.jpg" alt="">
-			</div>
-		</div>
-	</div>
-</section>
 
 	<!-- JavaScript -->
-	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
