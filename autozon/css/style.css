@@ -1,0 +1,46 @@
+body {
+	background-color: #F2F4F5;
+}
+header {
+	background-color: #1DBF73;
+}
+.logo {
+	line-height: 43px;
+	font-size: 32px;
+	padding: 10px 0 19px 0;
+}
+.user {
+	float: left;
+	text-decoration: none;
+}
+.user li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 25px 0 26px 0;
+	font-size: 16px;
+}
+.pol{
+	padding: 12px 25px;
+	color: #1DBF73;
+	background-color: #FFFFFF;
+	border-radius: 4px
+}
+
+
+
+.fleft {
+    float: left;
+}
+.rel {
+    position: relative;
+}
+
+form.searchmain [data-icon="search"] {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    color: #002f34;
+    font-size: 25px;
+    line-height: 1 !important;
+}
+
