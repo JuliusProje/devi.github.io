@@ -14,6 +14,11 @@ header {
 .navi{
 		height: 72px;
 }
+h2 {
+	line-height: 43px;
+	font-size: 32px;
+	font-weight: bold;
+}
 .newadv{
 	padding: 12px 22px;
 	color: #1DBF73 !important;
@@ -35,6 +40,14 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.logo a{
+	font-size: 32px;
+	color: #FFFFFF;
+}
+.menu span {
+	color: #FFFFFF;
+	font-size: 16px;
 }
 .login li {
 	list-style-type: none;
@@ -66,9 +79,10 @@ transition: all .3s;
 	width: 195px;
 }
 .popular .button{
-	bottom: 75px;
-	left: 57px;
+	bottom: 95px;
+	left: 50px;
 	font-size: 16px;
+	width: 215px;
 }
 }
 .catlink{
@@ -119,6 +133,11 @@ transition: all .3s;
 	left: 23px;
 	width: 100%;
 }
+.inner strong {
+	font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
 .car-info {
 	display: flex;
 	justify-content: space-between;
@@ -126,4 +145,40 @@ transition: all .3s;
 }
 .car-info li{
 	margin-left: 15px;
+	list-style-type: ;
+	color: #1DBF73;
+}
+.car-info span {
+	color: black;
+}
+.shadbord{
+	background-color: white;
+}
+.shadbord a {
+	color: black;
+}
+.shadbord img {
+	border-radius: 4px;
+}
+.drt a{
+	background-color: #1DBF73;
+	font-size: 24px;
+	border: none;
+	width: 70%;
+    border-radius: 4px;
+    transition: all .3s;
+}
+.drt a:hover{
+	background-color: transparent !important;
+	color:  #1DBF73 !important;
+	transition: all .3s;
+	-webkit-box-shadow: inset 0 0 0 8px #fff;
+    -moz-box-shadow: inset 0 0 0 8px #fff;
+    -ms-box-shadow: inset 0 0 0 8px #fff;
+    -o-box-shadow: inset 0 0 0 8px #fff;
+    box-shadow: inset 0 0 0 8px #fff;
+
+}
+footer {
+	margin-top: 100px;
 }
