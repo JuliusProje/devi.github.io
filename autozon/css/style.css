@@ -65,6 +65,11 @@ transition: all .3s;
 	left: 203px;
 	width: 195px;
 }
+.popular .button{
+	bottom: 75px;
+	left: 57px;
+	font-size: 16px;
+}
 .button a{
 	padding: 12px 25px;
 	background-color: rgba(29, 191, 115, 0.8); !important;
