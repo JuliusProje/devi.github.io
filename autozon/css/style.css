@@ -19,6 +19,27 @@ h2 {
 	font-size: 32px;
 	font-weight: bold;
 }
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 32px;
+}
+.posnews{   
+    padding: 7px 48px;
+    background: #1DBF73;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.big-post {
+	border-radius: 4px;
+	background-color: #ffffff;
+}
+.big-post p {
+	font-size: 16px;
+	font-weight: bold;
+}
 .newadv{
 	padding: 12px 22px;
 	color: #1DBF73 !important;
@@ -41,7 +62,7 @@ h2 {
 	justify-content: space-between;
 	align-items: center;
 }
-.logo a{
+.logo a, .logo a:hover{
 	font-size: 32px;
 	color: #FFFFFF;
 }
@@ -96,6 +117,12 @@ transition: all .3s;
 box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.16);
 transition: all .3s;
 }
+.carpol:hover{
+-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.16);
+-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.16);
+box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.16);
+transition: all .3s;
+} 
 .button{
 	position: absolute;
 	bottom: 163px;
@@ -177,8 +204,90 @@ transition: all .3s;
     -ms-box-shadow: inset 0 0 0 8px #fff;
     -o-box-shadow: inset 0 0 0 8px #fff;
     box-shadow: inset 0 0 0 8px #fff;
-
 }
 footer {
 	margin-top: 100px;
+}
+.cardblone {
+	background-color: #fff;
+}
+.butcoul a:hover {
+	background-color: transparent !important;
+	color:  #1DBF73 !important;
+	transition: all .3s;
+	-webkit-box-shadow: inset 0 0 0 8px #fff;
+    -moz-box-shadow: inset 0 0 0 8px #fff;
+    -ms-box-shadow: inset 0 0 0 8px #fff;
+    -o-box-shadow: inset 0 0 0 8px #fff;
+    box-shadow: inset 0 0 0 8px #fff;
+}
+.butcoul a{
+	background-color: #1DBF73;
+	font-size: 24px;
+	border: none;
+	width: 90%;
+    border-radius: 4px;
+    transition: all .3s;
+    color: white;
+}
+.gvno{
+	display: flex;
+	background-color: #fff;
+	font-size: 14px;
+}
+.brp, .descrip {
+	background-color: #fff;
+}
+.slidbox, .cardd{
+	background-color: #fff;
+}
+.names {
+	font-size: 24px;
+}
+.sliderbig{
+	position: relative;
+}
+.slick-track{
+	display:flex;
+	align-items: flex-start;
+}
+.slick-list {
+	overflow: hidden;
+}
+.sliderbig .slick-arrow{
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	font-size: 0;
+	width: 50px;
+	height: 50px;
+}
+.sliderbig .slick-arrow.slick-prev{
+	left: 0;
+	background: url('../img/icon/1492533535-arrow-15_83310.svg') 0 0 / 100% no-repeat;
+}
+.sliderbig .slick-arrow.slick-next{
+	right: 0;
+	background: url('../img/icon/1492533535-arrow-15_83310.svg') 0 0 / 100% no-repeat;
+}
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+.slider .slick-dots li{
+	list-style: none;
+}
+.slider .slick-dots button{
+	font-size: 0;
+	list-style: none;
+	display: none;
+
+}
+.slider .slick-arrow .slick-disabled{
+	opacity: 0.2;
+}
+.sliderbig {}
+.sliderbig_item{
+	text-align: center;
 }
