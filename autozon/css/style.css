@@ -1,4 +1,43 @@
-body {
+@font-face {
+    font-family: 'segoeuilight';
+    src: url('../fonts/segoeuilight.eot');
+    src: url('../fonts/segoeuilight.eot') format('embedded-opentype'),
+         url('../fonts/segoeuilight.woff2') format('woff2'),
+         url('../fonts/segoeuilight.woff') format('woff'),
+         url('../fonts/segoeuilight.ttf') format('truetype'),
+         url('../fonts/segoeuilight.svg#segoeuilight') format('svg');
+}
+@font-face {
+    font-family: 'segoeuisemibold';
+    src: url('fonts/segoeuisemibold.eot');
+    src: url('fonts/segoeuisemibold.eot') format('embedded-opentype'),
+         url('fonts/segoeuisemibold.woff2') format('woff2'),
+         url('fonts/segoeuisemibold.woff') format('woff'),
+         url('fonts/segoeuisemibold.ttf') format('truetype'),
+         url('fonts/segoeuisemibold.svg#segoeuisemibold') format('svg');
+}
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('SegoeUI.eot');
+    src: url('SegoeUI.eot?#iefix') format('embedded-opentype'),
+        url('SegoeUI.woff2') format('woff2'),
+        url('SegoeUI.woff') format('woff'),
+        url('SegoeUI.ttf') format('truetype'),
+        url('SegoeUI.svg#SegoeUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ArialRegular';
+    src: url('fonts/ArialRegular.eot');
+    src: url('fonts/ArialRegular.eot') format('embedded-opentype'),
+         url('fonts/ArialRegular.woff2') format('woff2'),
+         url('fonts/ArialRegular.woff') format('woff'),
+         url('fonts/ArialRegular.ttf') format('truetype'),
+         url('fonts/ArialRegular.svg#ArialRegular') format('svg');
+}
+body, textarea{
 	background-color: #F2F4F5 !important;
 }
 li,a {
@@ -15,9 +54,11 @@ header {
 		height: 72px;
 }
 h2 {
+	font-family: 'Segoe UI' bold ;
 	line-height: 43px;
 	font-size: 32px;
 	font-weight: bold;
+
 }
 h3 {
 	font-size: 24px;
@@ -63,6 +104,7 @@ h3 {
 	align-items: center;
 }
 .logo a, .logo a:hover{
+	font-family:'Segoe UI' bold;
 	font-size: 32px;
 	color: #FFFFFF;
 }
@@ -164,7 +206,7 @@ transition: all .3s;
 .car-info span {
 	color: black;
 }
-.butcoul a:hover, .drt a:hover{
+.butcoul a:hover, .drt a:hover, .mess button:hover{
 	background-color: transparent !important;
 	color:  #1DBF73 !important;
 	transition: all .3s;
@@ -188,6 +230,9 @@ transition: all .3s;
     border-radius: 4px;
     transition: all .3s;
 }
+.opis p{
+	font-family: 'ArialRegular';
+}
 footer {
 	margin-top: 100px;
 }
@@ -200,12 +245,19 @@ footer {
     transition: all .3s;
     color: white;
 }
+.mess button{
+	background-color: #1DBF73;
+	border: none;
+    transition: all .3s;
+    color: white;
+    padding: 10px 60px;
+} 
 .gvno{
 	display: flex;
 	background-color: #fff;
 	font-size: 14px;
 }
-.brp, .descrip, .slidbox, .cardd, .cardblone {
+.brp, .descrip, .slidbox, .cardd, .cardblone{
 	background-color: #fff;
 }
 .names {

@@ -1,0 +1,48 @@
+[1128/022554.549:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1128/022555.250:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1128/022555.250:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1128/022555.250:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1128/022555.250:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1128/022555.251:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1128/022555.251:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1128/022555.251:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1128/022555.458:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1128/022555.458:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022554.785:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022557.414:ERROR:exception_snapshot_win.cc(98)] thread ID 7012 not found in process
+[1128/022557.414:ERROR:exception_snapshot_win.cc(98)] thread ID 5368 not found in process
+[1128/022554.386:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022557.414:ERROR:exception_snapshot_win.cc(98)] thread ID 6728 not found in process
+[1128/022557.414:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1128/022557.414:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1128/022554.914:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022555.074:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022557.471:ERROR:exception_snapshot_win.cc(98)] thread ID 2420 not found in process
+[1128/022557.471:ERROR:exception_snapshot_win.cc(98)] thread ID 9004 not found in process
+[1128/022554.821:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022557.472:ERROR:exception_snapshot_win.cc(98)] thread ID 7908 not found in process
+[1128/022557.472:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1128/022557.472:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1128/022557.472:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1128/022555.779:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022556.928:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022557.473:ERROR:exception_snapshot_win.cc(98)] thread ID 6908 not found in process
+[1128/022557.474:ERROR:exception_snapshot_win.cc(98)] thread ID 9180 not found in process
+[1128/022557.474:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1128/022554.386:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022557.474:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1128/022557.474:ERROR:exception_snapshot_win.cc(98)] thread ID 8456 not found in process
+[1128/022556.257:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022557.474:ERROR:exception_snapshot_win.cc(98)] thread ID 5772 not found in process
+[1128/022554.386:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022557.475:ERROR:exception_snapshot_win.cc(98)] thread ID 8312 not found in process
+[1128/022557.475:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1128/022554.571:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022557.475:ERROR:exception_snapshot_win.cc(98)] thread ID 8060 not found in process
+[1128/022554.386:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022557.475:ERROR:exception_snapshot_win.cc(98)] thread ID 5264 not found in process
+[1128/022557.475:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1128/022557.475:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1128/022554.556:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[1128/022558.711:ERROR:exception_snapshot_win.cc(98)] thread ID 8412 not found in process
+[1128/022558.711:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
