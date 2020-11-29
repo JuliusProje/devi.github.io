@@ -263,53 +263,6 @@ footer {
 .names {
 	font-size: 24px;
 }
-.sliderbig{
-	position: relative;
-}
-.slick-track{
-	display:flex;
-	align-items: flex-start;
-}
-.slick-list {
-	overflow: hidden;
-}
-.sliderbig .slick-arrow{
-	position: absolute;
-	top: 50%;
-	z-index: 10;
-	font-size: 0;
-	width: 50px;
-	height: 50px;
-}
-.sliderbig .slick-arrow.slick-prev{
-	left: 0;
-	background: url('../img/icon/1492533535-arrow-15_83310.svg') 0 0 / 100% no-repeat;
-}
-.sliderbig .slick-arrow.slick-next{
-	right: 0;
-	background: url('../img/icon/1492533535-arrow-15_83310.svg') 0 0 / 100% no-repeat;
-}
-.slider .slick-dots{
-	display: flex;
-	align-items: center;
-	justify-content:center;
-}
-.slider .slick-dots li{
-	list-style: none;
-}
-.slider .slick-dots button{
-	font-size: 0;
-	list-style: none;
-	display: none;
-
-}
-.slider .slick-arrow .slick-disabled{
-	opacity: 0.2;
-}
-.sliderbig {}
-.sliderbig_item{
-	text-align: center;
-}
 #myCarousel .list-inline {
     white-space:nowrap;
     overflow-x:auto;
