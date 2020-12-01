@@ -216,6 +216,19 @@ transition: all .3s;
     -o-box-shadow: inset 0 0 0 8px #1DBF73;
     box-shadow: inset 0 0 0 8px #1DBF73;
 }
+.butcoul1 a{
+    background-color: #ffffff;
+    font-size: 24px;
+    border: none; 
+    width: 90%;
+    border-radius: 4px;
+    transition: all .3s;
+    color: #1dbf73 !important;
+    box-shadow: inset 0 0 0 8px #1DBF73;
+}
+.butcoul1 a:hover{
+
+}
 .car-info span, .shadbord a, .avtor a, .articl{
 	color: black;
 }
@@ -246,7 +259,17 @@ transition: all .3s;
 	width: 90%;
     border-radius: 4px;
     transition: all .3s;
-    color: white;
+    color: white !important;
+}
+.butcoul1 a:hover{
+	background-color: #1DBF73 !important;
+    color: white !important;
+    transition: all .3s;
+    -webkit-box-shadow: inset 0 0 0 0px #ffffff;
+    -moz-box-shadow: inset 0 0 0 0px #ffffff;
+    -ms-box-shadow: inset 0 0 0 0px #ffffff;
+    -o-box-shadow: inset 0 0 0 0px #ffffff;
+    box-shadow: inset 0 0 0 0px #ffffff;
 }
 .mess button{
 	background-color: #1DBF73;
