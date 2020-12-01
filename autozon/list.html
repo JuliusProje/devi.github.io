@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row navi mb-5">
+				<div class="col-md-6 logo"><a href="index.html">AVTOZON</a></div>
+				<div class="col-md-6 menu">
+					<ul class="login my-0">
+						<li>					
+							<a href=""><img src="img/icon/Icon ionic-md-heart-empty.svg" alt=""></a>
+						</li>
+						<li>
+							<a href=""><span><img class="pr-2" src="img/icon/Icon feather-user.svg" alt="">Мой профиль</span></a>
+						</li>
+					</ul>
+					<a class="newadv" href="">Подать объявление</a>			
+				</div>
+  			</div>
+  		</div>
+	</header>
+	<section>
+		<div class="container my-5">
+			<div class="header-search-bar">
+				<div class="input-group">
+					<input class="form-control border-secondary" type="text" name="" placeholder="15100 объявлений рядом">
+					<div class="dropdown input-group-append">
+						<button class="btn border-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Вся страна
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">киев</a>
+							<a class="dropdown-item" href="#">черновцы</a>
+							<a class="dropdown-item" href="#">львов</a>
+						</div>
+					</div>
+					<div class="input-group-append">
+						<button class="form-control border-secondary" type="text" name="" placeholder="Поиск">Поиск<img src="img/icon/Icon feather-search.svg" class="px-2" alt=""></button>
+						<!--<span class="input-group-text" id="my-addon">Поиск</span>-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+	<div class="container my-3">
+		<div class="row">
+			<div class="col-md-12 d-flex light-cars">
+				<img src="img/slider/slider-1-1920x1200.jpg" class="img-fluid" alt="">
+				<div class="card-img-overlay text-car text-center">
+    				<h4 class="card-title">Легковые автомобили</h4>
+  				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<section>
+	<div class="container">
+		<div class="row d-flex flex-row align-items-stretch">
+			<div class="col-md-4 col-scroll">
+								<!-- Section: filtr -->
+					<div class="btn-group-vertical">
+			<!-- Modal 1 -->
+						<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+						        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <!-- Section: Color --> окно 1 
+						      </div>
+						      <div class="modal-footer">
+						        <button typ class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+						        <button typ class="btn btn-primary">Результат</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			<!-- Modal 1 -->
+			<!-- Modal 2 -->
+						<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle">Цена</h5>
+						        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">сброс настроек &times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <!-- Section: Color --> 
+						            <div class="form-group d-flex">
+								      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+								        <option selected>От</option>
+								        <option value="1">один</option>
+								        <option value="2">два</option>
+								        <option value="3">три</option>
+								      </select>
+								
+								      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+								        <option selected>До</option>
+								        <option value="1">один</option>
+								        <option value="2">два</option>
+								        <option value="3">три</option>
+								      </select>
+							
+								    </div>
+						      </div>
+						      <div class="modal-footer">
+						        <button typ class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+						        <button typ class="btn btn-primary">Результат</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			<!-- Modal 2 -->
+			<!-- Modal 3 -->
+						<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+						        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <!-- Section: Color --> окно 3 
+						      </div>
+						      <div class="modal-footer">
+						        <button typ class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+						        <button typ class="btn btn-primary">Результат</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			<!-- Modal 3 -->
+			<!-- Modal 4 -->
+						<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+						        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <!-- Section: Color --> окно 4 
+						      </div>
+						      <div class="modal-footer">
+						        <button typ class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+						        <button typ class="btn btn-primary">Результат</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			<!-- Modal 4 -->
+			<!-- Modal 5 -->
+						<div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle">Пробег</h5>
+						        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">Сброс настроек &times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <!-- Section: Color -->
+						        <div class="form-group d-flex">
+								      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+								        <option selected>От</option>
+								        <option value="1">один</option>
+								        <option value="2">два</option>
+								        <option value="3">три</option>
+								      </select>
+								
+								      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+								        <option selected>До</option>
+								        <option value="1">один</option>
+								        <option value="2">два</option>
+								        <option value="3">три</option>
+								      </select>
+							
+								    </div> 
+						      </div>
+						      <div class="modal-footer">
+						        <button typ class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+						        <button typ class="btn btn-primary">Результат</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			<!-- Modal 5 -->
+			<!-- Modal 6 -->
+						<div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+						        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <!-- Section: Color --> окно 6 
+						      </div>
+						      <div class="modal-footer">
+						        <button typ class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+						        <button typ class="btn btn-primary">Результат</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			<!-- Modal 6 -->
+			<!-- Modal 7 -->
+						<div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+						        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <!-- Section: Color --> <div class="btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="checkbox" checked autocomplete="off"> Checked
+  </label>
+</div>
+<div class="btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="checkbox" checked autocomplete="off"> Checked
+  </label>
+</div>
+<div class="btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="checkbox" checked autocomplete="off"> Checked
+  </label>
+</div>
+						      </div>
+						      <div class="modal-footer">
+						        <button typ class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+						        <button typ class="btn btn-primary">Результат</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			<!-- Modal 7 -->
+			<!-- Modal 8 -->
+						<div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle">Тип продавца</h5>
+						        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">сброс настроек &times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <!-- Section: Color -->
+						        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+								  <label class="btn btn-secondary active">
+								    <input type="radio" name="options" id="option1" autocomplete="off" checked>Все
+								  </label>
+								  <label class="btn btn-secondary">
+								    <input type="radio" name="options" id="option2" autocomplete="off">Дилер
+								  </label>
+								  <label class="btn btn-secondary">
+								    <input type="radio" name="options" id="option3" autocomplete="off">Частное лицо
+								  </label>
+								</div>
+						      </div>
+						      <div class="modal-footer">
+						        <button typ class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+						        <button typ class="btn btn-primary">Результат</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			<!-- Modal 8 -->
+			<!-- Modal 9 -->
+						<div class="modal fade" id="exampleModalCenter9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle">Выберите цвет кузова</h5>
+						        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">сброс настроек</span>
+						        </button>
+						      </div>
+						      <div class="modal-body color">
+			        <!-- Section: Color -->
+						        	<button type="button" class="btn btn-primary btn-circle btn-xl">blue</button>
+						        	<button type="button" class="btn btn-secondary btn-circle btn-xl">Gray</button>
+						        	<button type="button" class="btn btn-success btn-circle btn-xl">Green</button>
+						        	<button type="button" class="btn btn-danger btn-circle btn-xl">Red</button>
+						        	<button type="button" class="btn btn-warning btn-circle btn-xl">Yellow</button>
+						        	<button type="button" class="btn btn-light btn-circle btn-xl">White</button>
+						        	<button type="button" class="btn btn-dark btn-circle btn-xl">Black</button>
+						        	<button type="button" class="btn btn-primary btn-circle btn-xl"></button>
+						        	<button type="button" class="btn btn-secondary btn-circle btn-xl">Gray</button>
+						        	<button type="button" class="btn btn-success btn-circle btn-xl">Green</button>
+						        	<button type="button" class="btn btn-warning btn-circle btn-xl">Yellow</button>
+						        	<button type="button" class="btn btn-light btn-circle btn-xl">White</button>
+						        	<button type="button" class="btn btn-dark btn-circle btn-xl">Black</button>
+								<!-- Section: Color -->			
+						      </div>
+						      <div class="modal-footer">
+						        <button typ class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+						        <button typ class="btn btn-primary">Результат</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			<!-- Modal 9 -->
+			<!-- Modal 10 -->
+						<div class="modal fade" id="exampleModalCenter10" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle2">Выберите Фото/Видео</h5>
+						        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">сброс настроек &times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <!-- Section: Color --> 
+										<div class="custom-control custom-checkbox">
+										  <input type="checkbox" class="custom-control-input" id="customCheck1">
+										  <label class="custom-control-label" for="customCheck1">С видео</label>
+										</div>
+										<div class="custom-control custom-checkbox">
+										  <input type="checkbox" class="custom-control-input" id="customCheck1">
+										  <label class="custom-control-label" for="customCheck1">С фотографиями</label>
+										</div>
+						      </div>
+						      <div class="modal-footer">
+						        <button typ class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+						        <button typ class="btn btn-primary">Результат</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			<!-- Modal 10 -->
+			<!-- Modal 11 -->
+						<div class="modal fade" id="exampleModalCenter11" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle">Выберите цвет кузова</h5>
+						        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">сброс настроек</span>
+						        </button>
+						      </div>
+						      <div class="modal-body color">
+			        <!-- Section: Color -->
+						        	<button type="button" class="btn btn-primary btn-circle btn-xl">blue</button>
+						        	<button type="button" class="btn btn-secondary btn-circle btn-xl">Gray</button>
+						        	<button type="button" class="btn btn-success btn-circle btn-xl">Green</button>
+						        	<button type="button" class="btn btn-danger btn-circle btn-xl">Red</button>
+						        	<button type="button" class="btn btn-warning btn-circle btn-xl">Yellow</button>
+						        	<button type="button" class="btn btn-light btn-circle btn-xl">White</button>
+						        	<button type="button" class="btn btn-dark btn-circle btn-xl">Black</button>
+						        	<button type="button" class="btn btn-primary btn-circle btn-xl"></button>
+						        	<button type="button" class="btn btn-secondary btn-circle btn-xl">Gray</button>
+						        	<button type="button" class="btn btn-success btn-circle btn-xl">Green</button>
+						        	<button type="button" class="btn btn-warning btn-circle btn-xl">Yellow</button>
+						        	<button type="button" class="btn btn-light btn-circle btn-xl">White</button>
+						        	<button type="button" class="btn btn-dark btn-circle btn-xl">Black</button>
+								<!-- Section: Color -->			
+						      </div>
+						      <div class="modal-footer">
+						        <button typ class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+						        <button typ class="btn btn-primary">Результат</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			<!-- Modal 11 -->
+			</div>
+			<div class="col-md-12">
+				<div class="btn-group-vertical leftnav" role="group" aria-label="Button group with nested dropdown">
+					<!-- кнопка выпада -->
+						<h6 class="text-left">Фильтры</h6>
+						<div class="text-muted text-left">
+			      			<p class="my-1">Марка</p>
+			      		</div>
+					  	<div class="btn-group vipad" role="group">
+						    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle border-0 rounded" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						      Любая
+						    </button>
+			    			<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+			      				<a class="dropdown-item" href="#">Выпадающая ссылка</a>
+			      				<a class="dropdown-item" href="#">Выпадающая ссылка</a>
+			    			</div>
+			  			</div>
+			  		<!-- кнопка выпада -->
+			  			<div class="text-muted text-left">
+			      			<p class="m-1">Марка</p>
+			      		</div>
+					  	<div class="btn-group vipad" role="group">
+						    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle border-0 rounded" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						      Любая
+						    </button>
+			    			<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+			      				<a class="dropdown-item" href="#">Выпадающая ссылка</a>
+			      				<a class="dropdown-item" href="#">Выпадающая ссылка</a>
+			    			</div>
+			  			</div>
+			  		<!-- кнопка выпада -->
+			  			<div class="text-muted text-left">
+			      			<p class="m-1">Марка</p>
+			      		</div>
+					  	<div class="btn-group vipad" role="group">
+						    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle border-0 rounded" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						      Любая
+						    </button>
+			    			<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+			      				<a class="dropdown-item" href="#">Выпадающая ссылка</a>
+			      				<a class="dropdown-item" href="#">Выпадающая ссылка</a>
+			    			</div>
+			  			</div>
+			  		<!-- кнопка выпада -->
+					<!-- кнопка Modal 1 -->
+			  		<button type="button" class="huy text-left py-2" data-toggle="modal" data-target="#exampleModalCenter1">Год</button>
+					<!-- кнопка Modal 1 -->
+					<!-- кнопка Modal 2 -->
+					<button type="button" class="huy text-left py-2" data-toggle="modal" data-target="#exampleModalCenter2">Цена</button>
+					<!-- кнопка Modal 2 -->
+					<!-- кнопка Modal 3 -->
+					<button type="button" class="huy text-left py-2" data-toggle="modal" data-target="#exampleModalCenter3">Коробка передач</button>
+					<!-- кнопка Modal 3 -->
+					<!-- кнопка Modal 4 -->
+					<button type="button" class="huy text-left py-2" data-toggle="modal" data-target="#exampleModalCenter4">Тип кузова</button>
+					<!-- кнопка Modal 4 -->
+					<!-- кнопка Modal 5 -->
+					<button type="button" class="huy text-left py-2" data-toggle="modal" data-target="#exampleModalCenter5">Пробег</button>
+					<!-- кнопка Modal 5 -->
+					<!-- кнопка Modal 6 -->
+					<button type="button" class="huy text-left py-2" data-toggle="modal" data-target="#exampleModalCenter6">Тип топлива</button>
+					<!-- кнопка Modal 6 -->
+					<!-- кнопка Modal 7 -->
+					<button type="button" class="huy text-left py-2" data-toggle="modal" data-target="#exampleModalCenter7">Трансмиссия</button>
+					<!-- кнопка Modal 7 -->
+					<!-- кнопка Modal 8 -->
+					<button type="button" class="huy text-left py-2" data-toggle="modal" data-target="#exampleModalCenter8">Тип продавца</button>
+					<!-- кнопка Modal 8 -->
+					<!-- кнопка Modal 9 -->
+					<button type="button" class="huy text-left py-2" data-toggle="modal" data-target="#exampleModalCenter9">Цвет кузова</button>
+					<!-- кнопка Modal 10 -->
+							<!-- кнопка Modal 7 -->
+					<button type="button" class="huy text-left py-2" data-toggle="modal" data-target="#exampleModalCenter10">Видео/фото</button>
+					<!-- кнопка Modal 10 -->
+					<!-- кнопка Modal 11 -->
+					<button type="button" class="huy text-left py-2" data-toggle="modal" data-target="#exampleModalCenter11">Состояние</button>
+					<!-- кнопка Modal 11 -->
+
+				</div>
+			</div>
+			<!-- Section: filtr -->
+			</div>
+			<div class="col-md-8">
+	      					<div class="card shadbord rounded border-0 mb-4">
+	  				<div class="row no-gutters">
+					    <div class="col-md-4 p-3">
+					      	<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
+					    </div>
+		      				<div class="card-body p-1"> 
+		      					<div class="row pt-2">
+		      						<div class="col-md-9">
+		      							 <h5 class="mb-auto">
+						        			<a href="post.html" class="my-3">BMW M6 Sport Hybrid
+						        			</a>
+						        		</h5>
+						    		</div>
+						        	<div class="col-md-3 mb-1 text-right">
+						    			<p>
+						    				<img class="px-2" src="img/icon/Icon material-euro-symbol.svg" alt="">1000
+						    			</p>
+									</div>
+		      					</div>
+						        <div class="row">
+						        	<div class="col-md-4">
+						        		<ul class="p-0 m-0">
+							    			<li class="list-unstyled text-muted text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				Б/У 
+							    			</li>
+							    			<li class="list-unstyled text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				120,768 км 
+											</li>
+							  			</ul>
+									</div>
+								<div class="col-md-4">
+									  <ul class="p-0 m-0">
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    	Бензин 
+										</li>
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    	Париж
+									    </li>
+									  </ul>
+								</div>
+								<div class="col-md-4 text-muted text-right pt-4">
+									<p class="m-0">Часное лицо</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+		      	</div>
+		      		<div class="card shadbord rounded border-0 mb-4">
+	  				<div class="row no-gutters">
+					    <div class="col-md-4 p-3">
+					      	<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
+					    </div>
+		      				<div class="card-body p-1"> 
+		      					<div class="row pt-2">
+		      						<div class="col-md-9">
+		      							 <h5 class="mb-auto">
+						        			<a href="post.html" class="my-3">BMW M6 Sport Hybrid
+						        			</a>
+						        		</h5>
+						    		</div>
+						        	<div class="col-md-3 mb-1 text-right">
+						    			<p>
+						    				<img class="px-2" src="img/icon/Icon material-euro-symbol.svg" alt="">1000
+						    			</p>
+									</div>
+		      					</div>
+						        <div class="row">
+						        	<div class="col-md-4">
+						        		<ul class="p-0 m-0">
+							    			<li class="list-unstyled text-muted text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				Б/У 
+							    			</li>
+							    			<li class="list-unstyled text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				120,768 км 
+											</li>
+							  			</ul>
+									</div>
+								<div class="col-md-4">
+									  <ul class="p-0 m-0">
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    Бензин 
+										</li>
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    	Париж
+									    </li>
+									  </ul>
+								</div>
+								<div class="col-md-4 text-muted text-right pt-4">
+									<p class="m-0">Часное лицо</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+		      	</div>
+		      					<div class="card shadbord rounded border-0 mb-4">
+	  				<div class="row no-gutters">
+					    <div class="col-md-4 p-3">
+					      	<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
+					    </div>
+		      				<div class="card-body p-1"> 
+		      					<div class="row pt-2">
+		      						<div class="col-md-9">
+		      							 <h5 class="mb-auto">
+						        			<a href="post.html" class="my-3">BMW M6 Sport Hybrid
+						        			</a>
+						        		</h5>
+						    		</div>
+						        	<div class="col-md-3 mb-1 text-right">
+						    			<p>
+						    				<img class="px-2" src="img/icon/Icon material-euro-symbol.svg" alt="">1000
+						    			</p>
+									</div>
+		      					</div>
+						        <div class="row">
+						        	<div class="col-md-4">
+						        		<ul class="p-0 m-0">
+							    			<li class="list-unstyled text-muted text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				Б/У 
+							    			</li>
+							    			<li class="list-unstyled text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				120,768 км 
+											</li>
+							  			</ul>
+									</div>
+								<div class="col-md-4">
+									  <ul class="p-0 m-0">
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    Бензин 
+										</li>
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    	Париж
+									    </li>
+									  </ul>
+								</div>
+								<div class="col-md-4 text-muted text-right pt-4">
+									<p class="m-0">Часное лицо</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+		      	</div>
+		      					<div class="card shadbord rounded border-0 mb-4">
+	  				<div class="row no-gutters">
+					    <div class="col-md-4 p-3">
+					      	<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
+					    </div>
+		      				<div class="card-body p-1"> 
+		      					<div class="row pt-2">
+		      						<div class="col-md-9">
+		      							 <h5 class="mb-auto">
+						        			<a href="post.html" class="my-3">BMW M6 Sport Hybrid
+						        			</a>
+						        		</h5>
+						    		</div>
+						        	<div class="col-md-3 mb-1 text-right">
+						    			<p>
+						    				<img class="px-2" src="img/icon/Icon material-euro-symbol.svg" alt="">1000
+						    			</p>
+									</div>
+		      					</div>
+						        <div class="row">
+						        	<div class="col-md-4">
+						        		<ul class="p-0 m-0">
+							    			<li class="list-unstyled text-muted text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				Б/У 
+							    			</li>
+							    			<li class="list-unstyled text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				120,768 км 
+											</li>
+							  			</ul>
+									</div>
+								<div class="col-md-4">
+									  <ul class="p-0 m-0">
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    Бензин 
+										</li>
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    	Париж
+									    </li>
+									  </ul>
+								</div>
+								<div class="col-md-4 text-muted text-right pt-4">
+									<p class="m-0">Часное лицо</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+		      	</div>
+		      					<div class="card shadbord rounded border-0 mb-4">
+	  				<div class="row no-gutters">
+					    <div class="col-md-4 p-3">
+					      	<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
+					    </div>
+		      				<div class="card-body p-1"> 
+		      					<div class="row pt-2">
+		      						<div class="col-md-9">
+		      							 <h5 class="mb-auto">
+						        			<a href="post.html" class="my-3">BMW M6 Sport Hybrid
+						        			</a>
+						        		</h5>
+						    		</div>
+						        	<div class="col-md-3 mb-1 text-right">
+						    			<p>
+						    				<img class="px-2" src="img/icon/Icon material-euro-symbol.svg" alt="">1000
+						    			</p>
+									</div>
+		      					</div>
+						        <div class="row">
+						        	<div class="col-md-4">
+						        		<ul class="p-0 m-0">
+							    			<li class="list-unstyled text-muted text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				Б/У 
+							    			</li>
+							    			<li class="list-unstyled text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				120,768 км 
+											</li>
+							  			</ul>
+									</div>
+								<div class="col-md-4">
+									  <ul class="p-0 m-0">
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    Бензин 
+										</li>
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    	Париж
+									    </li>
+									  </ul>
+								</div>
+								<div class="col-md-4 text-muted text-right pt-4">
+									<p class="m-0">Часное лицо</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+		      	</div>
+		      		<div class="card shadbord rounded border-0 mb-4">
+	  				<div class="row no-gutters">
+					    <div class="col-md-4 p-3">
+					      	<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
+					    </div>
+		      				<div class="card-body p-1"> 
+		      					<div class="row pt-2">
+		      						<div class="col-md-9">
+		      							 <h5 class="mb-auto">
+						        			<a href="post.html" class="my-3">BMW M6 Sport Hybrid
+						        			</a>
+						        		</h5>
+						    		</div>
+						        	<div class="col-md-3 mb-1 text-right">
+						    			<p>
+						    				<img class="px-2" src="img/icon/Icon material-euro-symbol.svg" alt="">1000
+						    			</p>
+									</div>
+		      					</div>
+						        <div class="row">
+						        	<div class="col-md-4">
+						        		<ul class="p-0 m-0">
+							    			<li class="list-unstyled text-muted text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				Б/У 
+							    			</li>
+							    			<li class="list-unstyled text-left pt-1">
+							    				<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+							    				120,768 км 
+											</li>
+							  			</ul>
+									</div>
+								<div class="col-md-4">
+									  <ul class="p-0 m-0">
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    Бензин 
+										</li>
+									    <li class="list-unstyled text-left pt-1">
+									    	<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+									    	Париж
+									    </li>
+									  </ul>
+								</div>
+								<div class="col-md-4 text-muted text-right pt-4">
+									<p class="m-0">Часное лицо</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+		      	</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section: filtr -->
+<!-- Section: filtr -->
+<footer class="page-footer font-small indigo p-3">
+  <div class="container text-center text-md-left mb-5">
+    <div class="row">
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-6 mx-auto">
+        <ul class="list-unstyled">
+          <li class="py-0">
+            <a href="#!">О нас</a>
+          </li>
+          <li class="py-0">
+            <a href="#!">Помощь и обратная связь</a>
+          </li>
+          <li class="py-0">
+            <a href="#!">Платные услуги</a>
+          </li>
+          <li class="py-0">
+            <a href="#!">Для прессы</a>
+          </li>
+                    <li class="py-0">
+            <a href="#!">Рекламма на сайте</a>
+          </li>
+                    <li class="py-0">
+            <a href="#!">Условия использования</a>
+          </li>
+        </ul>
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-6 mx-auto">
+        <ul class="list-unstyled">
+          <li class="py-0">
+            <a href="#!">Как продавать и покупать</a>
+          </li>
+          <li class="py-0">
+            <a href="#!">Правила безопасности</a>
+          </li>
+          <li class="py-0">
+            <a href="#!">Политика конфиденциальности</a>
+          </li>
+        </ul>   	  	
+	  	<a href=""><img src="img/icon/facebook.png" alt=""></a>
+		<a href=""><img src="img/icon/twitter.png" alt=""></a>
+	 	<a href=""><img src="img/icon/instagram.png" alt=""></a>
+	 	<a href=""><img src="img/icon/youtube.png" alt=""></a>
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+    </div>
+  </div>
+</footer>
+<!-- Footer -->
+<!-- Footer -->
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
