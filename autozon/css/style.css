@@ -222,6 +222,9 @@ transition: all .3s;
 .shadbord a:hover, .avtor a:hover, .articl:hover, .inner strong:hover{
 	color: #1DBF73;
 }
+.dropdown-menu{
+	background-color: black;
+}
 .drt a{
 	background-color: #1DBF73;
 	font-size: 24px;
@@ -229,6 +232,9 @@ transition: all .3s;
 	width: 70%;
     border-radius: 4px;
     transition: all .3s;
+}
+.footbut button{
+	width: 48%;
 }
 .opis p{
 	font-family: 'ArialRegular';
@@ -311,6 +317,8 @@ footer a, footer a:hover{
   	width: 100%;
   	border-top:1px solid #DEDEE1;
   	background-color: #F2F4F5;
+  	font-weight: 500;
+
   }
   .leftnav {
   	width: 100%;
@@ -318,6 +326,13 @@ footer a, footer a:hover{
   .vipad button{
   	background-color: #DEDEE1;
   	color:black;
+  }
+  .vipad button:hover{
+  	color: black;
+  	background-color: #fff;
+  }
+  .marks {
+  	font-size: 12px;
   }
   .close span{
   	font-size: 18px;
