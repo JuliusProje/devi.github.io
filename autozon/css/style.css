@@ -188,6 +188,10 @@ transition: all .3s;
 	left: 23px;
 	width: 100%;
 }
+.wish-button strong {
+	background-color: #1DBF73;
+	color: #ffffff;
+}
 .inner strong {
 	font-size: 16px;
     color: black;
@@ -234,7 +238,7 @@ transition: all .3s;
     color: #1dbf73 !important;
     box-shadow: inset 0 0 0 3px #1DBF73;
 }
-.butcoul1 a:hover{
+.butcoul1 a:hover, .footbut button:hover{
 	background-color: #ffffff !important;
     color: #1DBF73 !important;
     transition: all .3s;
@@ -246,6 +250,14 @@ transition: all .3s;
 }
 .car-info span, .shadbord a, .avtor a, .articl{
 	color: black;
+}
+.bv4 {
+	font-size: 14px !important;
+	border: 1px solid #e9eaea !important;
+	color: black !important;
+}
+.bv4:active{
+	background-color: #fff;
 }
 .shadbord a:hover, .avtor a:hover, .articl:hover, .inner strong:hover{
 	color: #1DBF73;
@@ -263,6 +275,32 @@ transition: all .3s;
 }
 .footbut button{
 	width: 48%;
+	background-color: #1DBF73;
+	font-size: 24px;
+	border: none;
+    border-radius: 4px;
+    transition: all .3s;
+    color: white !important;
+}
+.form-controlw{
+	padding: 1.375rem 1.75rem !important;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.butm8 {
+	width: 32% !important;
+}
+.form-controlw:active {
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .opis p{
 	font-family: 'ArialRegular';
@@ -339,16 +377,22 @@ footer a, footer a:hover{
   	font-weight: 500;
 
   }
+
+ button:focus, input:focus{
+  	outline-style: solid 2px !important;
+  	outline-color: #DEDEE1 !important; 
+  }
   .leftnav {
   	width: 100%;
   }
+
   .vipad button{
-  	background-color: #DEDEE1;
+  	background-color: #dedee1;
   	color:black;
   }
   .vipad button:hover{
-  	color: black;
-  	background-color: #fff;
+  	color: black !important;
+  	background-color: #fff !important;
   }
   .marks {
   	font-size: 12px;
@@ -388,5 +432,7 @@ footer a, footer a:hover{
             border-radius: 35px; 
             font-size: 12px; 
             text-align: center; 
-        } 
-
+} 
+.dropdown-menu {
+	width: 100% !important;
+}
