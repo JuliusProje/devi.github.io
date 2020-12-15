@@ -160,8 +160,8 @@ transition: all .3s;
 } 
 .button{
 	position: absolute;
-	bottom: 163px;
-	left: 203px;
+	bottom: 195px;
+	left: 195px;
 	width: 195px;
 }
 .button a{
@@ -436,3 +436,108 @@ footer a, footer a:hover{
 .dropdown-menu {
 	width: 100% !important;
 }
+
+
+
+@media (max-width: 1200px){
+	.button {
+    position: absolute;
+    bottom: 136px;
+    left: 120px;
+    width: 195px;
+	}
+		.popular .button {
+    bottom: 70px;
+    left: 31px;
+    font-size: 12px;
+    width: 182px;
+	}
+	.car-info li{
+		margin-left: 0px;
+		font-size: 12px;
+	}
+}
+@media (max-width: 992px){
+	h5 {
+		font-size: 18px !important;
+	}
+	.button {
+    position: absolute;
+    bottom: 100px;
+    left: 70px;
+    width: 195px;
+	}
+	.popular .button {
+    bottom: 75px;
+    left: 30px;
+    font-size: 12px;
+    width: 182px;
+	}
+	.car-info li{
+		margin-left: 0px;
+		font-size: 12px;
+	}
+	.card-body, .big-post p {
+		font-size: 12px;
+	}
+	.drt a{
+		font-size: 18px;
+	}
+	.klasik1 img{
+		height: 12px;
+		width: 12px;
+	}
+	.posnews {
+		font-size: 16px;
+	}
+	.big-post h4 {
+		font-size: 18px;
+	}
+	.butcoul a, .butcoul1 a {
+		font-size: 20px;
+	}
+		.diller img{
+		width: 75px !important;
+	}
+}
+@media (max-width: 767px){
+	.button {
+    position: absolute;
+    bottom: 136px;
+    left: 70px;
+    width: 195px;
+	}
+	.menu li {
+	margin-left: 25px !important;
+	}
+	.diller img{
+		width: 75px !important;
+	}
+}
+
+@media (max-width: 576px){ 
+	.button {
+    bottom: 110px;
+    left: 95px;
+	}
+	.car-info li {
+    margin-left: 0px;
+    font-size: 16px;
+	}
+	.popular .button {
+    bottom: 140px;
+    left: 120px;
+	}
+	#search {
+		display: none;
+	}
+	.menu {
+		display: none;
+	}
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
