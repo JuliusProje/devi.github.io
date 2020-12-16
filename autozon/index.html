@@ -10,34 +10,52 @@
 	<title>Document</title>
 </head>
 <body>
-<header>
-	<div class="container">
-		<div class="row navi ">
-			<div class="col-md-6 logo"><a href="index.html">AVTOZON</a></div>
-			<div class="col-md-6 menu">
-				<ul class="login my-0">
-					<li>					
-						<a href=""><img src="img/icon/Icon ionic-md-heart-empty.svg" alt=""></a>
-					</li>
-					<li>
-						<a href=""><span><img class="pr-2" src="img/icon/Icon feather-user.svg" alt="">Мой профиль</span></a>
-					</li>
-				</ul>
-				<a class="newadv" href="registration.html">Подать объявление</a>			
+	<header>
+		<div class="container">
+			<div class="row navi ">
+				<div class="col-lg-6 col-md-4 logo"><a href="index.html">AVTOZON</a></div>
+				<div class=" col-lg-6 col-md-8 menu">
+					<nav class="navbar navbar-expand-lg navbar-light my-0">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<ul class="navbar-nav login">
+							<li>          
+								<a href=""><img src="img/icon/Icon ionic-md-heart-empty.svg" alt=""></a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><img class="pr-2" src="img/icon/Icon feather-user.svg" alt="">Мой профиль</span></a>
+								<div class="dropdown-menu p-0" aria-labelledby="navbarDropdownMenuLink">
+									<h5 class="text-muted">Мой профиль:</h5>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Объявления</a>
+									<a class="dropdown-item" href="#">Сообщения</a>
+									<a class="dropdown-item" href="#">Платежы и счёт</a>
+									<a class="dropdown-item" href="#">Настройки</a>
+									<a class="dropdown-item" href="#">Доставка</a>
+									<h5 class="text-muted">Избранные:</h5>
+									<a class="dropdown-item" href="#">Объявления</a>
+									<a class="dropdown-item" href="#">Поиски</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Выйти</a>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<a class="newadv" href="ad.html">Подать объявление</a>      
+				</div>
 			</div>
-  		</div>
-  	</div>
-</header>
-<section id="search">
-	<div class="container mt-5">
+		</div>
+	</header>
+	<section id="search">
+		<div class="container mt-5">
 			<div class="header-search-bar">
 				<div class="input-group">
-
 					<input class="form-control border-secondary" type="text" name="" placeholder="15100 объявлений рядом">
 					<div class="dropdown input-group-append">
 						<button class="btn border-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Вся страна
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Вся страна
 						</button>
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 							<a class="dropdown-item" href="#">киев</a>
@@ -47,12 +65,12 @@
 					</div>
 					<div class="input-group-append">
 						<button class="form-control border-secondary" type="text" name="" placeholder="Поиск">Поиск<img src="img/icon/Icon feather-search.svg" class="px-2" alt=""></button>
-						<!--<span class="input-group-text" id="my-addon">Поиск</span>-->
+							<!--<span class="input-group-text" id="my-addon">Поиск</span>-->
 					</div>
 				</div>
 			</div>
 		</div>
-</section>
+	</section>
 <main>	
 	<section id="one">
 		<div class="container py-3 my-5">
@@ -80,523 +98,523 @@
 	<section id="two">
 		<div class="container">
 			<h2 class="catname pb-4">Популярные обьявления</h2>
-					<div class="row">
+			<div class="row">
 
-						<div class="col-lg-3 col-md-4 my-3">
-							<div class="product-link p-3">
-								<div class="image">
-									<a href="">
-										<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
-									</a>
-								</div>
-								<div class="year text-muted">
-								Год: 2006
-								</div>
-								<div class="inner">
-									<h4>	
-										<a href="product.html">
-											<strong>
-												BMW M6 Sport Hybrid
-											</strong>
-										</a>
-									</h4>
-								</div>
-								<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-								</div>
-								<ul class="car-info p-0">
-									<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-									<li><span class="text-muted">2006</span></li>
-									<li><span class="text-muted">Автомат</span></li>
-									<li><span class="text-muted">Бензин</span></li>
-								</ul>
-								<div class="wish-button">
-									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-								</div>
-							</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+							</a>
 						</div>
-						<div class="col-lg-3 col-md-4 my-3">
-							<div class="product-link p-3">
-								<div class="image">
-									<a href="">
-										<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
-									</a>
-								</div>
-								<div class="year text-muted">
-								Год: 2006
-								</div>
-								<div class="inner">
-									<h4>
-										<a href="product.html">
-											<strong>
-												BMW M6 Sport Hybrid
-											</strong>
-										</a>
-									</h4>
-								</div>
-								<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-								</div>
-								<ul class="car-info p-0">
-									<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-									<li><span class="text-muted">2006</span></li>
-									<li><span class="text-muted">Автомат</span></li>
-									<li><span class="text-muted">Бензин</span></li>
-								</ul>
-								<div class="wish-button">
-									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-								</div>
-							</div>
+						<div class="year text-muted">
+							Год: 2006
 						</div>
-						<div class="col-lg-3 col-md-4 my-3">
-							<div class="product-link p-3">
-								<div class="image">
-									<a href="">
-										<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
-									</a>
-								</div>
-								<div class="year text-muted">
-								Год: 2006
-								</div>
-								<div class="inner">
-									<h4>
-										<a href="product.html">
-											<strong>
-												BMW M6 Sport Hybrid
-											</strong>
-										</a>
-									</h4>
-								</div>
-								<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-								</div>
-								<ul class="car-info p-0">
-									<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-									<li><span class="text-muted">2006</span></li>
-									<li><span class="text-muted">Автомат</span></li>
-									<li><span class="text-muted">Бензин</span></li>
-								</ul>
-								<div class="wish-button">
-									<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-								</div>
-							</div>
+						<div class="inner">
+							<h4>	
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
 						</div>
-							<div class="col-lg-3 col-md-4 my-3">
-								<div class="product-link p-3">
-									<div class="image">
-										<a href="">
-											<img class="img-fluid" src="img/listing-4-322x230.jpg" alt="">
-										</a>
-									</div>
-									<div class="year text-muted">
-										Год: 2006
-									</div>
-									<div class="inner">
-									<h4>
-										<a href="product.html">
-											<strong>
-												BMW M6 Sport Hybrid
-											</strong>
-										</a>
-									</h4>
-									</div>
-									<div class="price pt-2 pb-3">
-										<img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-									</div>
-									<ul class="car-info p-0">
-										<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-										<li><span class="text-muted">2006</span></li>
-										<li><span class="text-muted">Автомат</span></li>
-										<li><span class="text-muted">Бензин</span></li>
-									</ul>
-									<div class="wish-button">
-										<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-4 my-3">
-								<div class="product-link p-3">
-									<div class="image">
-										<a href="">
-											<img class="img-fluid" src="img/listing-6-322x230.jpg" alt="">
-										</a>
-									</div>
-									<div class="year text-muted">
-										Год: 2006
-									</div>
-									<div class="inner">
-										<h4>
-											<a href="product.html">
-												<strong>
-													BMW M6 Sport Hybrid
-												</strong>
-											</a>
-										</h4>
-									</div>
-									<div class="price pt-2 pb-3">
-										<img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-									</div>
-									<ul class="car-info p-0">
-										<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-										<li><span class="text-muted">2006</span></li>
-										<li><span class="text-muted">Автомат</span></li>
-										<li><span class="text-muted">Бензин</span></li>
-									</ul>
-									<div class="wish-button">
-										<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-4 my-3">
-								<div class="product-link p-3">
-									<div class="image">
-										<a href="">
-											<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
-										</a>
-									</div>
-									<div class="year text-muted">
-										Год: 2006
-									</div>
-									<div class="inner">
-										<h4>
-											<a href="product.html">
-												<strong>
-													BMW M6 Sport Hybrid
-												</strong>
-											</a>
-										</h4>
-									</div>
-									<div class="price pt-2 pb-3">
-										<img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-									</div>
-									<ul class="car-info p-0">
-										<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-										<li><span class="text-muted">2006</span></li>
-										<li><span class="text-muted">Автомат</span></li>
-										<li><span class="text-muted">Бензин</span></li>
-									</ul>
-									<div class="wish-button">
-										<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-4 my-3">
-								<div class="product-link p-3">
-									<div class="image">
-										<a href="">
-											<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
-										</a>
-									</div>
-									<div class="year text-muted">
-									Год: 2006
-									</div>
-									<div class="inner">
-										<h4>
-											<a href="product.html">
-												<strong>
-													BMW M6 Sport Hybrid
-												</strong>
-											</a>
-										</h4>
-									</div>
-									<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-									</div>
-										<ul class="car-info p-0">
-											<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-											<li><span class="text-muted">2006</span></li>
-											<li><span class="text-muted">Автомат</span></li>
-											<li><span class="text-muted">Бензин</span></li>
-										</ul>
-									<div class="wish-button">
-										<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-4 my-3">
-								<div class="product-link p-3">
-									<div class="image">
-										<a href="">
-											<img class="img-fluid" src="img/listing-3-322x230.jpg" alt="">
-										</a>
-									</div>
-									<div class="year text-muted">
-									Год: 2006
-									</div>
-									<div class="inner">
-										<h4>
-											<a href="product.html">
-												<strong>
-													BMW M6 Sport Hybrid
-												</strong>
-											</a>
-										</h4>
-									</div>
-									<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-									</div>
-									<ul class="car-info p-0">
-										<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-										<li><span class="text-muted">2006</span></li>
-										<li><span class="text-muted">Автомат</span></li>
-										<li><span class="text-muted">Бензин</span></li>
-									</ul>
-									<div class="wish-button">
-										<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-									</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 my-3">
-									<div class="product-link p-3">
-										<div class="image">
-											<a href="">
-												<img class="img-fluid" src="img/listing-4-322x230.jpg" alt="">
-											</a>
-										</div>
-										<div class="year text-muted">
-										Год: 2006
-										</div>
-										<div class="inner">
-											<h4>
-												<a href="product.html">
-													<strong>
-														BMW M6 Sport Hybrid
-													</strong>
-												</a>
-											</h4>
-										</div>
-										<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-										</div>
-										<ul class="car-info p-0">
-											<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-											<li><span class="text-muted">2006</span></li>
-											<li><span class="text-muted">Автомат</span></li>
-											<li><span class="text-muted">Бензин</span></li>
-										</ul>
-										<div class="wish-button">
-											<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-4 my-3">
-									<div class="product-link p-3">
-										<div class="image">
-											<a href="">
-												<img class="img-fluid" src="img/listing-6-322x230.jpg" alt="">
-											</a>
-										</div>
-										<div class="year text-muted">
-										Год: 2006
-										</div>
-										<div class="inner">
-											<h4>
-												<a href="product.html">
-													<strong>
-														BMW M6 Sport Hybrid
-													</strong>
-												</a>
-											</h4>
-										</div>
-										<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-										</div>
-										<ul class="car-info p-0">
-											<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-											<li><span class="text-muted">2006</span></li>
-											<li><span class="text-muted">Автомат</span></li>
-											<li><span class="text-muted">Бензин</span></li>
-										</ul>
-										<div class="wish-button">
-											<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-4 my-3">
-									<div class="product-link p-3">
-										<div class="image">
-											<a href="">
-												<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
-											</a>
-										</div>
-										<div class="year text-muted">
-										Год: 2006
-										</div>
-										<div class="inner">
-											<h4>
-												<a href="product.html">
-													<strong>
-														BMW M6 Sport Hybrid
-													</strong>
-												</a>
-											</h4>
-										</div>
-										<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-										</div>
-										<ul class="car-info p-0">
-											<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-											<li><span class="text-muted">2006</span></li>
-											<li><span class="text-muted">Автомат</span></li>
-											<li><span class="text-muted">Бензин</span></li>
-										</ul>
-										<div class="wish-button">
-											<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-4 my-3">
-									<div class="product-link p-3">
-										<div class="image">
-											<a href="">
-												<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
-											</a>
-										</div>
-										<div class="year text-muted">
-										Год: 2006
-										</div>
-										<div class="inner">
-											<h4>
-												<a href="product.html">
-													<strong>
-														BMW M6 Sport Hybrid
-													</strong>
-												</a>
-											</h4>
-										</div>
-										<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-										</div>
-										<ul class="car-info p-0">
-											<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-											<li><span class="text-muted">2006</span></li>
-											<li><span class="text-muted">Автомат</span></li>
-											<li><span class="text-muted">Бензин</span></li>
-										</ul>
-										<div class="wish-button">
-											<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-4 my-3">
-									<div class="product-link p-3">
-										<div class="image">
-											<a href="">
-												<img class="img-fluid" src="img/listing-3-322x230.jpg" alt="">
-											</a>
-										</div>
-										<div class="year text-muted">
-										Год: 2006
-										</div>
-										<div class="inner">
-											<h4>
-												<a href="product.html">
-													<strong>
-														BMW M6 Sport Hybrid
-													</strong>
-												</a>
-											</h4>
-										</div>
-										<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-										</div>
-										<ul class="car-info p-0">
-											<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-											<li><span class="text-muted">2006</span></li>
-											<li><span class="text-muted">Автомат</span></li>
-											<li><span class="text-muted">Бензин</span></li>
-										</ul>
-										<div class="wish-button">
-											<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-4 my-3">
-									<div class="product-link p-3">
-									<div class="image">
-										<a href="">
-											<img class="img-fluid" src="img/listing-4-322x230.jpg" alt="">
-										</a>
-									</div>
-									<div class="year text-muted">
-									Год: 2006
-									</div>
-									<div class="inner">
-										<h4>
-											<a href="product.html">
-												<strong>
-													BMW M6 Sport Hybrid
-												</strong>
-											</a>
-										</h4>
-									</div>
-									<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000</div>
-									<ul class="car-info p-0">
-										<li class="list-unstyled"><span class="text-muted">БУ</span></li>										
-										<li><span class="text-muted">2006</span></li>
-										<li><span class="text-muted">Автомат</span></li>
-										<li><span class="text-muted">Бензин</span></li>
-									</ul>
-									<div class="wish-button">
-										<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-4 my-3">
-								<div class="product-link p-3">
-									<div class="image">
-										<a href="">
-											<img class="img-fluid" src="img/listing-6-322x230.jpg" alt="">
-										</a>
-									</div>
-									<div class="year text-muted">
-									Год: 2006
-									</div>
-									<div class="inner">
-										<h4>
-											<a href="product.html">
-												<strong>
-													BMW M6 Sport Hybrid
-												</strong>
-											</a>
-										</h4>
-									</div>
-									<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000</div>
-									<ul class="car-info p-0">
-										<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-										<li><span class="text-muted">2006</span></li>
-										<li><span class="text-muted">Автомат</span></li>
-										<li><span class="text-muted">Бензин</span></li>
-									</ul>
-									<div class="wish-button">
-										<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-4 my-3">
-								<div class="product-link p-3">
-									<div class="image">
-										<a href="">
-											<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
-										</a>
-									</div>
-									<div class="year text-muted">
-									Год: 2006
-									</div>
-									<div class="inner">
-										<h4>
-											<a href="product.html">
-												<strong>
-													BMW M6 Sport Hybrid
-												</strong>
-											</a>
-										</h4>
-									</div>
-									<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000</div>
-									<ul class="car-info p-0">
-										<li class="list-unstyled"><span class="text-muted">БУ</span></li>
-										<li><span class="text-muted">2006</span></li>
-										<li><span class="text-muted">Автомат</span></li>
-										<li><span class="text-muted">Бензин</span></li>
-									</ul>
-									<div class="wish-button">
-										<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-									</div>
-								</div>
-							</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
 						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-4-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3">
+							<img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-6-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3">
+							<img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3">
+							<img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-3-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-4-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-6-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-3-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
+						</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-4-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>										
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-6-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 my-3">
+					<div class="product-link p-3">
+						<div class="image">
+							<a href="">
+								<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
+							</a>
+						</div>
+						<div class="year text-muted">
+							Год: 2006
+						</div>
+						<div class="inner">
+							<h4>
+								<a href="product.html">
+									<strong>
+										BMW M6 Sport Hybrid
+									</strong>
+								</a>
+							</h4>
+						</div>
+						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000</div>
+						<ul class="car-info p-0">
+							<li class="list-unstyled"><span class="text-muted">БУ</span></li>
+							<li><span class="text-muted">2006</span></li>
+							<li><span class="text-muted">Автомат</span></li>
+							<li><span class="text-muted">Бензин</span></li>
+						</ul>
+						<div class="wish-button">
+							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
 
-					</div>		
+		</div>		
 	</section>
 	<section id="three">
 		<div class="container py-4 my-4">
@@ -675,16 +693,14 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
 					<div class="card mb-4 shadbord rounded border-0 p-3" style="">
-  						<img src="img/blog/slider-1-1920x1200.jpg" class="card-img-top" alt="...">
-				  		<div class="card-body p-0 my-3">
-				    		<h5 class="card-title">
-				    			Тест драйв нового BMW M6 Sport
-				    		</h5>					    		
-				    		<p class="card-text">Обзор нового BMW M6 Sport, первые впечатления, характеристики.И стоимость нового автомобиля.Обзор нового BMW M6 Sport, первые впечатления, характеристики.И стоимость нового автомобиля.
-				    		</p>
-					    	<div class="mb-2 text-muted">Nov 11
-					    	</div>
-					  	</div>
+						<img src="img/blog/slider-1-1920x1200.jpg" class="card-img-top" alt="...">
+						<div class="card-body p-0 mt-3">
+							<h5 class="card-title">Тест драйв нового BMW M6 Sport
+							</h5>					    		
+							<p class="card-text">Обзор нового BMW M6 Sport, первые впечатления, характеристики.И стоимость нового автомобиля.Обзор нового BMW M6 Sport, первые впечатления, характеристики.И стоимость нового автомобиля.</p>
+							<div class="mb-2 text-muted">Nov 11
+							</div>
+						</div>
 					</div>
 					<div class="drt text-center mb-3">
 						<a href="post.html" class="btn btn-primary">Смотреть все обзоры</a>
@@ -692,61 +708,61 @@
 				</div>
 				<div class="col-md-6">
 					<div class="card shadbord rounded border-0 mb-4">
-	  					<div class="row no-gutters">
-					    	<div class="col-md-6 p-3">
-					      		<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
-					    	</div>
-		    				<div class="col-md-6 ">
-		      					<div class="card-body p-1"> 
-						        	<p class="mb-auto py-2 pr-2">
-						        		<a href="post.html" class="my-3">Можно положиться! Топ-10 надежных автомобильных брендов
-						        		</a>
-						        	</p>
-						        	<div class="mb-1 text-muted text-right p-2">
-						        		<img class="px-2" src="img/icon/Icon material-date-range.svg" alt="">Nov 11
-						        	</div>
-		      					</div>
-		    				</div>
-	  					</div>
+						<div class="row no-gutters">
+							<div class="col-md-6 p-3">
+								<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
+							</div>
+							<div class="col-md-6 ">
+								<div class="card-body p-1"> 
+									<p class="mb-auto py-2 pr-2">
+										<a href="post.html" class="my-3">Можно положиться! Топ-10 надежных автомобильных брендов
+										</a>
+									</p>
+									<div class="mb-1 text-muted text-right p-2">
+										<img class="px-2" src="img/icon/Icon material-date-range.svg" alt="">Nov 11
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="card shadbord rounded border-0 mb-4">
-	  					<div class="row no-gutters">
-					    	<div class="col-md-6 p-3">
-					      		<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
-					    	</div>
-		    				<div class="col-md-6 ">
-		      					<div class="card-body p-1"> 
-						        	<p class="mb-auto py-2 pr-2">
-						        		<a href="post.html" class="my-3">
-						        		Можно положиться! Топ-10 надежных автомобильных брендов
-						        		</a>
-						        	</p>
-						        	<div class="mb-1 text-muted text-right p-2">
-						        		<img class="px-2" src="img/icon/Icon material-date-range.svg" alt="">Nov 11
-						        	</div>
-		      					</div>
-		    				</div>
-	  					</div>
-	  				</div>
+						<div class="row no-gutters">
+							<div class="col-md-6 p-3">
+								<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
+							</div>
+							<div class="col-md-6 ">
+								<div class="card-body p-1"> 
+									<p class="mb-auto py-2 pr-2">
+										<a href="post.html" class="my-3">
+											Можно положиться! Топ-10 надежных автомобильных брендов
+										</a>
+									</p>
+									<div class="mb-1 text-muted text-right p-2">
+										<img class="px-2" src="img/icon/Icon material-date-range.svg" alt="">Nov 11
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="card shadbord rounded border-0 mb-4">
-	  					<div class="row no-gutters">
-					    	<div class="col-md-6 p-3">
-					      		<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
-					    	</div>
-		    				<div class="col-md-6 ">
-		      					<div class="card-body p-1"> 
-						        	<p class="mb-auto py-2 pr-2">
-						        		<a href="post.html" class="my-3">Можно положиться! Топ-10 надежных автомобильных брендов
-						        		</a>
-						        	</p>
-						        	<div class="mb-1 text-muted text-right p-2">
-						        		<img class="px-2" src="img/icon/Icon material-date-range.svg" alt="">Nov 11
-						        	</div>
-		      					</div>
-		    				</div>
-	  					</div>
-	  				</div>
-	      			<div class="drt text-center">
+						<div class="row no-gutters">
+							<div class="col-md-6 p-3">
+								<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
+							</div>
+							<div class="col-md-6 ">
+								<div class="card-body p-1"> 
+									<p class="mb-auto py-2 pr-2">
+										<a href="post.html" class="my-3">Можно положиться! Топ-10 надежных автомобильных брендов
+										</a>
+									</p>
+									<div class="mb-1 text-muted text-right p-2">
+										<img class="px-2" src="img/icon/Icon material-date-range.svg" alt="">Nov 11
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="drt text-center">
 						<a href="post.html" class="btn btn-primary">Читать больше новостей
 						</a>
 					</div>
@@ -756,54 +772,54 @@
 	</section>
 </main>
 <!-- Footer -->
-<footer class="page-footer font-small indigo p-3">
-  <div class="container text-center text-md-left mb-5">
-    <div class="row">
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-6 mx-auto">
-        <ul class="list-unstyled">
-          <li class="py-0">
-            <a href="#!">О нас</a>
-          </li>
-          <li class="py-0">
-            <a href="#!">Помощь и обратная связь</a>
-          </li>
-          <li class="py-0">
-            <a href="#!">Платные услуги</a>
-          </li>
-          <li class="py-0">
-            <a href="#!">Для прессы</a>
-          </li>
-                    <li class="py-0">
-            <a href="#!">Рекламма на сайте</a>
-          </li>
-                    <li class="py-0">
-            <a href="#!">Условия использования</a>
-          </li>
-        </ul>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-6 mx-auto">
-        <ul class="list-unstyled">
-          <li class="py-0">
-            <a href="#!">Как продавать и покупать</a>
-          </li>
-          <li class="py-0">
-            <a href="#!">Правила безопасности</a>
-          </li>
-          <li class="py-0">
-            <a href="#!">Политика конфиденциальности</a>
-          </li>
-        </ul>   	  	
-	  	<a href=""><img src="img/icon/icon-footer/Icon awesome-facebook-square.svg" alt=""></a>
-		<a href=""><img src="img/icon/icon-footer/Icon awesome-twitter-square.svg" alt=""></a>
-	 	<a href=""><img src="img/icon/icon-footer/Icon awesome-instagram.svg" alt=""></a>
-	 	<a href=""><img src="img/icon/icon-footer/Icon awesome-youtube-square.svg" alt=""></a>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-    </div>
-  </div>
-</footer>
+	<footer class="page-footer font-small indigo p-3">
+		<div class="container text-center text-md-left mb-5">
+			<div class="row">
+				<hr class="clearfix w-100 d-md-none">
+				<div class="col-md-6 mx-auto">
+					<ul class="list-unstyled">
+						<li class="py-0">
+							<a href="#!">О нас</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Помощь и обратная связь</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Платные услуги</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Для прессы</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Рекламма на сайте</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Условия использования</a>
+						</li>
+					</ul>
+				</div>
+				<hr class="clearfix w-100 d-md-none">
+				<div class="col-md-6 mx-auto">
+					<ul class="list-unstyled">
+						<li class="py-0">
+							<a href="#!">Как продавать и покупать</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Правила безопасности</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Политика конфиденциальности</a>
+						</li>
+					</ul>   	  	
+					<a href=""><img src="img/icon/icon-footer/Icon awesome-facebook-square.svg" alt=""></a>
+					<a href=""><img src="img/icon/icon-footer/Icon awesome-twitter-square.svg" alt=""></a>
+					<a href=""><img src="img/icon/icon-footer/Icon awesome-instagram.svg" alt=""></a>
+					<a href=""><img src="img/icon/icon-footer/Icon awesome-youtube-square.svg" alt=""></a>
+				</div>
+				<hr class="clearfix w-100 d-md-none">
+			</div>
+		</div>
+	</footer>
 <!-- Footer -->
 	<!-- JavaScript -->
 	<script src="js/bootstrap.min.js"></script>

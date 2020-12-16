@@ -12,32 +12,50 @@
 <body>
 	<header>
 		<div class="container">
-			<div class="row navi mb-5">
-				<div class="col-md-6 logo"><a href="index.html">AVTOZON</a></div>
-				<div class="col-md-6 menu">
-					<ul class="login my-0">
-						<li>					
-							<a href=""><img src="img/icon/Icon ionic-md-heart-empty.svg" alt=""></a>
-						</li>
-						<li>
-							<a href=""><span><img class="pr-2" src="img/icon/Icon feather-user.svg" alt="">Мой профиль</span></a>
-						</li>
-					</ul>
-					<a class="newadv" href="ad.html">Подать объявление</a>			
+			<div class="row navi ">
+				<div class="col-lg-6 col-md-4 logo"><a href="index.html">AVTOZON</a></div>
+				<div class=" col-lg-6 col-md-8 menu">
+					<nav class="navbar navbar-expand-lg navbar-light my-0">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<ul class="navbar-nav login">
+							<li>          
+								<a href=""><img src="img/icon/Icon ionic-md-heart-empty.svg" alt=""></a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><img class="pr-2" src="img/icon/Icon feather-user.svg" alt="">Мой профиль</span></a>
+								<div class="dropdown-menu p-0" aria-labelledby="navbarDropdownMenuLink">
+									<h5 class="text-muted">Мой профиль:</h5>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Объявления</a>
+									<a class="dropdown-item" href="#">Сообщения</a>
+									<a class="dropdown-item" href="#">Платежы и счёт</a>
+									<a class="dropdown-item" href="#">Настройки</a>
+									<a class="dropdown-item" href="#">Доставка</a>
+									<h5 class="text-muted">Избранные:</h5>
+									<a class="dropdown-item" href="#">Объявления</a>
+									<a class="dropdown-item" href="#">Поиски</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Выйти</a>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<a class="newadv" href="ad.html">Подать объявление</a>      
 				</div>
-  			</div>
-  		</div>
-</header>
-<section id="search">
-	<div class="container mt-5">
+			</div>
+		</div>
+	</header>
+	<section id="search">
+		<div class="container mt-5">
 			<div class="header-search-bar">
 				<div class="input-group">
-
 					<input class="form-control border-secondary" type="text" name="" placeholder="15100 объявлений рядом">
 					<div class="dropdown input-group-append">
 						<button class="btn border-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Вся страна
+						Вся страна
 						</button>
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 							<a class="dropdown-item" href="#">киев</a>
@@ -47,322 +65,333 @@
 					</div>
 					<div class="input-group-append">
 						<button class="form-control border-secondary" type="text" name="" placeholder="Поиск">Поиск<img src="img/icon/Icon feather-search.svg" class="px-2" alt=""></button>
-						<!--<span class="input-group-text" id="my-addon">Поиск</span>-->
+					<!--<span class="input-group-text" id="my-addon">Поиск</span>-->
 					</div>
 				</div>
 			</div>
 		</div>
-</section>
-<section id="slid">
-	<div class="container py-3 mt-5">
-		<div class="row">
-			<div class="col-md-8">
-<div class="container p-0">
-    <div class="row align-items-center">
-        <div class="col-md-12" id="slider">
-            <div id="myCarousel" class="card carousel  p-3 border-0">
-                <!-- main slider carousel items -->
-                <div class="carousel-inner">
-                    <div class="active carousel-item" data-slide-number="0">
-                        <img src="img/slider/slider-1-1920x1200.jpg" class="img-fluid">
-                    </div>
-                    <div class="carousel-item" data-slide-number="1">
-                        <img src="img/slider/slider-2-1920x1200.jpg" class="img-fluid">
-                    </div>
-                    <div class="carousel-item" data-slide-number="2">
-                        <img src="img/slider/slider-3-1920x1200.jpg" class="img-fluid">
-                    </div>
-                    <div class="carousel-item" data-slide-number="3">
-                        <img src="img/slider/slider-1-1920x1200.jpg" class="img-fluid">
-                    </div>
-                    <div class="carousel-item" data-slide-number="4">
-                        <img src="img/slider/slider-2-1920x1200.jpg" class="img-fluid">
-                    </div>
-                    <div class="carousel-item" data-slide-number="5">
-                        <img src="img/slider/slider-3-1920x1200.jpg" class="img-fluid">
-                    </div>
-                    <div class="carousel-item" data-slide-number="6">
-                        <img src="img/slider/slider-2-1920x1200.jpg" class="img-fluid">
-                    </div>
-                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-
-                </div>
-                <!-- main slider carousel nav controls -->
-
-
-                <ul class="carousel-indicators  list-inline mx-auto border-0 px-2">
-                    <li class="list-inline-item active">
-                        <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
-                            <img src="img/slider/slider-1-1920x1200.jpg" class="img-fluid">
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
-                            <img src="img/slider/slider-2-1920x1200.jpg" class="img-fluid">
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
-                            <img src="img/slider/slider-3-1920x1200.jpg" class="img-fluid">
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
-                            <img src="img/slider/slider-1-1920x1200.jpg" class="img-fluid">
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel">
-                            <img src="img/slider/slider-2-1920x1200.jpg" class="img-fluid">
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a id="carousel-selector-5" data-slide-to="5" data-target="#myCarousel">
-                            <img src="img/slider/slider-3-1920x1200.jpg" class="img-fluid">
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a id="carousel-selector-6" data-slide-to="6" data-target="#myCarousel">
-                            <img src="img/slider/slider-1-1920x1200.jpg" class="img-fluid">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
-    <!--/main slider carousel-->
-</div>
+	</section>
+	<section id="slid">
+		<div class="container py-3 mt-5">
+			<div class="row">
+				<div class="col-md-8 mb-3">
+					<div class="container p-0">
+						<div class="row align-items-center">
+							<div class="col-md-12" id="slider">
+								<div id="myCarousel" class="card carousel  p-3 border-0">
+									<!-- main slider carousel items -->
+									<div class="carousel-inner">
+										<div class="active carousel-item" data-slide-number="0">
+											<img src="img/slider/slider-1-1920x1200.jpg" class="img-fluid">
+										</div>
+										<div class="carousel-item" data-slide-number="1">
+											<img src="img/slider/slider-2-1920x1200.jpg" class="img-fluid">
+										</div>
+										<div class="carousel-item" data-slide-number="2">
+											<img src="img/slider/slider-3-1920x1200.jpg" class="img-fluid">
+										</div>
+										<div class="carousel-item" data-slide-number="3">
+											<img src="img/slider/slider-1-1920x1200.jpg" class="img-fluid">
+										</div>
+										<div class="carousel-item" data-slide-number="4">
+											<img src="img/slider/slider-2-1920x1200.jpg" class="img-fluid">
+										</div>
+										<div class="carousel-item" data-slide-number="5">
+											<img src="img/slider/slider-3-1920x1200.jpg" class="img-fluid">
+										</div>
+										<div class="carousel-item" data-slide-number="6">
+											<img src="img/slider/slider-2-1920x1200.jpg" class="img-fluid">
+										</div>
+										<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+											<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+											<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<!-- main slider carousel nav controls -->
+									<ul class="carousel-indicators  list-inline mx-auto border-0 px-2">
+										<li class="list-inline-item active">
+											<a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
+												<img src="img/slider/slider-1-1920x1200.jpg" class="img-fluid">
+											</a>
+										</li>
+										<li class="list-inline-item">
+											<a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
+												<img src="img/slider/slider-2-1920x1200.jpg" class="img-fluid">
+											</a>
+										</li>
+										<li class="list-inline-item">
+											<a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
+												<img src="img/slider/slider-3-1920x1200.jpg" class="img-fluid">
+											</a>
+										</li>
+										<li class="list-inline-item">
+											<a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
+												<img src="img/slider/slider-1-1920x1200.jpg" class="img-fluid">
+											</a>
+										</li>
+										<li class="list-inline-item">
+											<a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel">
+												<img src="img/slider/slider-2-1920x1200.jpg" class="img-fluid">
+											</a>
+										</li>
+										<li class="list-inline-item">
+											<a id="carousel-selector-5" data-slide-to="5" data-target="#myCarousel">
+												<img src="img/slider/slider-3-1920x1200.jpg" class="img-fluid">
+											</a>
+										</li>
+										<li class="list-inline-item">
+											<a id="carousel-selector-6" data-slide-to="6" data-target="#myCarousel">
+												<img src="img/slider/slider-1-1920x1200.jpg" class="img-fluid">
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/main slider carousel-->
 					<div class="row-fluid">
 						<div class="guano rounded mt-3 p-3">
-						<div class="col-md-4 p-0 mr-3">
-							  <ul class="p-0">
-							    <li class="list-unstyled text-left py-2"><img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">  Состояние:<span class="ml-2 text-muted">была в использовании</span></li>
-							    <li class="list-unstyled text-left py-2"><img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
-							    Год выпуска:<span class="ml-2 text-muted">2006</span></li>
-							    <li class="list-unstyled text-left py-2"><img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
-							    	Марка:<span class="ml-2 text-muted">BMW</span></li>
-							  </ul>
+							<div class="col-md-4 p-0 mr-3">
+								<ul class="p-0">
+									<li class="list-unstyled text-left py-2">
+										<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">  Состояние:
+										<span class="ml-2 text-muted">была в использовании</span>
+									</li>
+									<li class="list-unstyled text-left py-2">
+										<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+										Год выпуска:
+										<span class="ml-2 text-muted">2006</span>
+									</li>
+									<li class="list-unstyled text-left py-2">
+										<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">
+										Марка:
+										<span class="ml-2 text-muted">BMW</span>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-4 p-0 mr-3">
+								<ul class="p-0">
+									<li class="list-unstyled text-left py-2">
+										<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Вид топлива: 
+										<span class="ml-2 text-muted">Газ / Бензин</span>
+									</li>
+									<li class="list-unstyled text-left py-2">
+										<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Vin код: 
+										<span class="ml-2 text-muted">PCH2577</span>
+									</li>
+									<li class="list-unstyled text-left py-2">
+										<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Модель: 
+										<span class="ml-2 text-muted">М3</span>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-4 p-0 mr-3">
+								<ul class="p-0">
+									<li class="list-unstyled text-left py-2">
+										<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Пробег: 
+										<span class="ml-2 text-muted">120.765 kv</span>
+									</li>
+									<li class="list-unstyled text-left py-2">
+										<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Hp: 
+										<span class="ml-2 text-muted">C300</span>
+									</li>
+									<li class="list-unstyled text-left py-2">
+										<img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Цвет: 
+										<span class="ml-2 text-muted">Синий</span>
+									</li>
+								</ul>
+							</div>
 						</div>
-						<div class="col-md-4 p-0 mr-3">
-							<ul class="p-0">
-							    <li class="list-unstyled text-left py-2"><img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Вид топлива: <span class="ml-2 text-muted">Газ / Бензин</span></li>
-							    <li class="list-unstyled text-left py-2"><img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Vin код: <span class="ml-2 text-muted">PCH2577</span></li>
-							    <li class="list-unstyled text-left py-2"><img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Модель: <span class="ml-2 text-muted">М3</span></li>
-							  </ul>
-						</div>
-						<div class="col-md-4 p-0 mr-3">
-							<ul class="p-0">
-							    <li class="list-unstyled text-left py-2"><img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Пробег: <span class="ml-2 text-muted">120.765 kv</span></li>
-							    <li class="list-unstyled text-left py-2"><img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Hp: <span class="ml-2 text-muted">C300</span>
-								</li>
-							    <li class="list-unstyled text-left py-2"><img src="img/icon/Icon ionic-ios-speedometer.svg" class="mr-1" alt="">Цвет: <span class="ml-2 text-muted">Синий</span></li>
-							  </ul>
-						</div>
-					</div>
-
-					</div>
-			</div>
-			<div class="col-md-4">
-				<div class="row cardblone rounded mb-3">
-					<div class="col-md-12 d-flex justify-content-between pt-1">
-						
-						<h2 class="pt-2">BMW M3</h2>
-						<div class="price pt-2 pb-3"><h4><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000</h4></div>
 					</div>
 				</div>
-    				<div class="row">
-						<div class="card shadbord rounded border-0 mb-3">
-	  						<div class="row no-gutters">
-	  							
-	  								<div class="col-md-12">
-	  									<div class="mb-1 text-muted text-left p-3">Пользователь</div>
-	  								</div>
-	  							
-	  							<div class="row">
-					    		<div class="col-md-6">
-					      			<img src="img/icon/user.png" class="rounded-circle ml-3" alt="..." width="100px" height="100px">
-					    		</div>
-		    					<div class="col-md-12">
-		      						<div class="card-body pr-2"> 
-						        		<p class="mb-auto names">Максим Сергеевич</p>
-						        		<div class="mr-2 text-muted text-left">На автозон с марта 2013</div>
-						        		
-		      						</div>
-		    					</div>
-		    					</div>
-	  						</div>
-	  						<div class="row">
-	  							<div class="col-md-12 mt-3">
-	  								<div class="butcoul text-center">
-										<a href="category.html" class="btn btn-primary pb-2">Написать продавцу</a>
+				<div class="col-md-4">
+					<div class="card rounded border-0 mb-3">
+						<div class="col-md-12 d-flex justify-content-between py-2">	
+							<h4 class="pt-2">BMW M3</h4>
+							<div class="price pt-2 pb-3">
+								<h4>
+									<img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">1000
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="card rounted border-0 mb-3">
+						<div class="mb-1 text-muted text-left p-3"><p>Пользователь</p></div>
+						<div class="col-md-12 avtor mb-3">
+							<div class="row">
+								<div class="col-md- ml-3">
+									<img src="img/icon/user.png" class="rounded-circle" alt="..." width="100px" height="100px">
+								</div>
+								<div class="col-md- ">
+									<div class="card-body pr-2"> 
+										<p class="mb-auto names">
+											Максим Сергеевич
+										</p>
+										<div class="mr-2 text-muted text-left">На автозон с марта 2013</div>	
 									</div>
-	  							</div>
-	  						</div>
-	  						<div class="row">
-	  							<div class="col-md-12 my-3">
-	  								<div class="butcoul1 text-center">
-										<a href="category.html" class="btn btn-primary pb-2">Показать телефон</a>
-									</div>
-	  							</div>
-	  						</div>
-	  					</div>
-	  				</div>
-
-	  				<div class="row">
-	  					<div class="card avtor border-0 mb-3">
-	  						<div class="row no-gutters">
-	  							<div class="col-md-12 p-3">
-	  								<div class="text-muted text-left">Точный адресс</div>
-	  							</div>
-	  							<div class="col-md-12 px-3">
-	  								<h5 class="card-title m-0"><img src="img/icon/Icon awesome-map-marker-alt.svg" class="pr-1 mr-1" alt="">Париж, Франция</h5>
-	  							</div>
-	  							<div class="col-md-12 maps">
-	  								<img src="img/maps/Screenshot_1.jpg" class="p-3" height="300px" alt="">
-	  							</div>
-	  						</div>
-	  					</div>
-	  				</div>
-  			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<div class="card p-2 border-0">
-				  <div class="card-body">
-				    <h3>ОПИСАНИЕ</h3>
-				  </div>
-				  <div class="card-body opis">
-				  	<p>
-				  		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-						s est Lorem ipsum dolor sit amet.
-						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-				  	</p>
-				  </div>
-				</div>
-			</div>
-		</div>
-					<div class="row">
-			<div class="col-md-8 py-3">
-				<div class="card border-0 p-3">
-				<div class="row">
-					<div class="col-md-7 avtor mb-3">
+								</div>
+							</div>
+						</div>
 						<div class="row">
-					    	<div class="col-md- ml-3">
-					      		<img src="img/icon/user.png" class="rounded-circle" alt="..." width="100px" height="100px">
-					    	</div>
-		    				<div class="col-md- ">
-		      					<div class="card-body pr-2"> 
-						        	<p class="mb-auto names">
-						        		Максим Сергеевич
-						        	</p>
-						        	<div class="mr-2 text-muted text-left">На автозон с марта 2013</div>	
-		      					</div>
-		    				</div>
-		    			</div>
+							<div class="col-md-12 mt-3">
+								<div class="butcoul text-center">
+									<a href="category.html" class="btn btn-primary pb-2">Написать продавцу</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 my-3">
+								<div class="butcoul1 text-center">
+									<a href="category.html" class="btn btn-primary pb-2">Показать телефон</a>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-5 mb-3">
-						<div class="row mt-3">
-					    	<div class="col-md- ml-3">
-					      		
-					      			<img src="img/icon/dialer_284_34310.png" alt="">
-					      		
-					    	</div>
-		    				<div class="col-md- ">
-		      					<div class="card-body pr-2"> 
-						        	<h6>0990099000</h6>
-						        		
-		      					</div>
-		    				</div>
-		    			</div>
-					</div>
-		<div class="col-sm-12 col-md-12">
-			<div class="my-3 text-muted text-left">Текст сообщения</div>
-            <div class="panel panel-default">
-                <div class="panel-body">                
-                    <form accept-charset="UTF-8" action="" method="POST">
-                        <textarea class="form-control counted border-0 messcol" name="message" placeholder="" rows="5" style="margin-bottom:10px;"></textarea>
-                        <div class="text-right mess"><button class="btn btn-info" type="submit">ОТПРАВИТЬ</button></div>
-                    </form>
-                </div>
-            </div>
-        </div>
-				</div>
-
-			</div>
-</div>
-			</div>
-
+					<div class="card avtor border-0 mb-3">
+						<div class="row no-gutters">
+							<div class="col-md-12 p-3">
+								<div class="text-muted text-left">Точный адресс</div>
+							</div>
+							<div class="col-md-12 px-3">
+								<h5 class="card-title m-0"><img src="img/icon/Icon awesome-map-marker-alt.svg" class="pr-1 mr-1" alt="">Париж, Франция</h5>
+							</div>
+							<div class="col-md-12 maps">
+								<img src="img/maps/Screenshot_1.jpg" class="p-3" height="300px" alt="">
+							</div>
+						</div>
+					</div>	
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="card p-2 border-0">
+						<div class="card-body">
+							<h3>ОПИСАНИЕ</h3>
+						</div>
+						<div class="card-body opis">
+							<p>
+								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+								s est Lorem ipsum dolor sit amet.
+								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 py-3">
+					<div class="card border-0 p-3">
+						<div class="row">
+							<div class="col-md-7 avtor mb-3">
+								<div class="row">
+									<div class="col-md- ml-3">
+										<img src="img/icon/user.png" class="rounded-circle" alt="..." width="100px" height="100px">
+									</div>
+									<div class="col-md- ">
+										<div class="card-body pr-2"> 
+											<p class="mb-auto names">
+												Максим Сергеевич
+											</p>
+											<div class="mr-2 text-muted text-left">На автозон с марта 2013</div>	
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5 mb-3">
+								<div class="row mt-3">
+									<div class="col-md- ml-3">	      		
+										<img src="img/icon/dialer_284_34310.png" alt="">
+									</div>
+									<div class="col-md- ">
+										<div class="card-body pr-2"> 
+											<h6>0990099000</h6>	
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-12">
+								<div class="my-3 text-muted text-left">Текст сообщения</div>
+								<div class="panel panel-default">
+									<div class="panel-body">                
+										<form accept-charset="UTF-8" action="" method="POST">
+											<textarea class="form-control counted border-0 messcol" name="message" placeholder="" rows="5" style="margin-bottom:10px;"></textarea>
+											<div class="text-center mess">
+												<button class="btn btn-info" type="submit">ОТПРАВИТЬ</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 <!-- Footer -->
-<footer class="page-footer font-small indigo p-3">
-  <div class="container text-center text-md-left mb-5">
-    <div class="row">
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-6 mx-auto">
-        <ul class="list-unstyled">
-          <li class="py-0">
-            <a href="#!">О нас</a>
-          </li>
-          <li class="py-0">
-            <a href="#!">Помощь и обратная связь</a>
-          </li>
-          <li class="py-0">
-            <a href="#!">Платные услуги</a>
-          </li>
-          <li class="py-0">
-            <a href="#!">Для прессы</a>
-          </li>
-                    <li class="py-0">
-            <a href="#!">Рекламма на сайте</a>
-          </li>
-                    <li class="py-0">
-            <a href="#!">Условия использования</a>
-          </li>
-        </ul>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-6 mx-auto">
-        <ul class="list-unstyled">
-          <li class="py-0">
-            <a href="#!">Как продавать и покупать</a>
-          </li>
-          <li class="py-0">
-            <a href="#!">Правила безопасности</a>
-          </li>
-          <li class="py-0">
-            <a href="#!">Политика конфиденциальности</a>
-          </li>
-        </ul>   	  	
-	  	<a href=""><img src="img/icon/icon-footer/Icon awesome-facebook-square.svg" alt=""></a>
-		<a href=""><img src="img/icon/icon-footer/Icon awesome-twitter-square.svg" alt=""></a>
-	 	<a href=""><img src="img/icon/icon-footer/Icon awesome-instagram.svg" alt=""></a>
-	 	<a href=""><img src="img/icon/icon-footer/Icon awesome-youtube-square.svg" alt=""></a>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-    </div>
-  </div>
-</footer>
-<!-- Footer -->
+	<footer class="page-footer font-small indigo p-3">
+		<div class="container text-center text-md-left mb-5">
+			<div class="row">
+				<hr class="clearfix w-100 d-md-none">
+				<div class="col-md-6 mx-auto">
+					<ul class="list-unstyled">
+						<li class="py-0">
+							<a href="#!">О нас</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Помощь и обратная связь</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Платные услуги</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Для прессы</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Рекламма на сайте</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Условия использования</a>
+						</li>
+					</ul>
+				</div>
+				<hr class="clearfix w-100 d-md-none">
+				<div class="col-md-6 mx-auto">
+					<ul class="list-unstyled">
+						<li class="py-0">
+							<a href="#!">Как продавать и покупать</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Правила безопасности</a>
+						</li>
+						<li class="py-0">
+							<a href="#!">Политика конфиденциальности</a>
+						</li>
+					</ul>   	  	
+					<a href=""><img src="img/icon/icon-footer/Icon awesome-facebook-square.svg" alt=""></a>
+					<a href=""><img src="img/icon/icon-footer/Icon awesome-twitter-square.svg" alt=""></a>
+					<a href=""><img src="img/icon/icon-footer/Icon awesome-instagram.svg" alt=""></a>
+					<a href=""><img src="img/icon/icon-footer/Icon awesome-youtube-square.svg" alt=""></a>
+				</div>
+				<hr class="clearfix w-100 d-md-none">
+			</div>
+		</div>
+	</footer>
+	<!-- Footer -->
 	<!-- JavaScript -->
-
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="js/script.js"></script>
+	<!-- JavaScript -->
 </body>
 </html>
