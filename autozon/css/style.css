@@ -799,24 +799,36 @@ a:hover,a:focus {
 		float: none;
 	}
 }
-/*-----------------адаптив-----------------------*/
-@media only screen and (max-width: 479px){
- .tab{ padding: 40px 20px; }
+@media (max-width: 376px) {
+	.button {
+    bottom: 100px;
+    left: 75px;
+	}
 }
-.adphoto a{
-	height: 120px;
-	background-color: #f2f4f5;
-}
-@media (max-width: 320px){
+@media (max-width: 325px){
 	h2 {
 		font-size: 20px !important;
 	}
-	.popular .button {
+	.button {
+    bottom: 80px;
+    left: 50px;
+}
+.popular .button {
     bottom: 100px;
-    left: 70px;
-	}
+    left: 75px;
+}
 	.mess button {
 		float: none;
+	}
+}
+/*-----------------адаптив-----------------------*/
+@media only screen and (max-width: 479px){
+ 	.tab{ 
+ 		padding: 40px 20px; 
+ 	}
+	.adphoto a{
+	height: 120px;
+	background-color: #f2f4f5;
 	}
 }
 /*-----------------адаптив-----------------------*/
