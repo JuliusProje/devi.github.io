@@ -798,11 +798,23 @@ a:hover,a:focus {
 	.mess button {
 		float: none;
 	}
+		.lider {
+		top: 55px;
+	}
+	.card-price {
+		bottom: 580px;
+	}
 }
 @media (max-width: 376px) {
 	.button {
     bottom: 100px;
     left: 75px;
+	}
+		.lider {
+		top: 55px;
+	}
+	.card-price {
+		bottom: 570px;
 	}
 }
 @media (max-width: 325px){
