@@ -1,0 +1,55 @@
+header {
+	background-color: #0E2332;
+	position: fixed;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+#one {
+	height: 200px;
+	background-color: #1EBEA5;
+}
+#two {
+	height: 200px;
+	background-color: #F3F4F5;
+}
+.dropdown-menu.show {
+    display: contents;
+}
+.card {
+	border: 1px solid #1EBEA5;
+}
+a {
+	color: black;
+}
+{box-sizing: border-box;}
+form {
+  position: relative;
+  margin: 0 auto;
+}
+input, button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+input {
+  width: 100%;
+  height: 42px;
+  background: #F9F0DA;
+  padding-left: 15px;
+}
+button {
+  padding: 0px 15px;
+  height: 26px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #F15B42;
+  cursor: pointer;
+  color: white;
+}
+footer {
+	background-color: #0E2332;
+	height: 200px;
+}
