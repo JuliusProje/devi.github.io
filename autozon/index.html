@@ -1,828 +1,2531 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<!-- Required meta tags -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<title>Document</title>
+  <!-- Google Web Fonts
+  ================================================== -->
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900%7COverpass:300,400,600,700,800,900" rel="stylesheet">
+  <!-- Basic Page Needs
+  ================================================== -->
+  <title>Avtozon</title>
+  
+  <!--meta info-->
+  <meta charset="utf-8">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- Vendor CSS
+  ============================================ -->
+  
+  <link rel="stylesheet" href="font/demo-files/demo.css">
+  <!-- CSS theme files
+  ============================================ -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<div class="row navi ">
-				<div class="col-lg-6 col-md-4 logo"><a href="index.html">AVTOZON</a></div>
-				<div class=" col-lg-6 col-md-8 menu">
-					<nav class="navbar navbar-expand-lg navbar-light my-0">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<ul class="navbar-nav login">
-							<li>          
-								<a href=""><img src="img/icon/Icon ionic-md-heart-empty.svg" alt=""></a>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><img class="pr-2" src="img/icon/Icon feather-user.svg" alt="">Мой профиль</span></a>
-								<div class="dropdown-menu p-0" aria-labelledby="navbarDropdownMenuLink">
-									<h5 class="text-muted">Мой профиль:</h5>
-									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Объявления</a>
-									<a class="dropdown-item" href="#">Сообщения</a>
-									<a class="dropdown-item" href="#">Платежы и счёт</a>
-									<a class="dropdown-item" href="#">Настройки</a>
-									<a class="dropdown-item" href="#">Доставка</a>
-									<h5 class="text-muted">Избранные:</h5>
-									<a class="dropdown-item" href="#">Объявления</a>
-									<a class="dropdown-item" href="#">Поиски</a>
-									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Выйти</a>
-								</div>
-							</li>
-						</ul>
-					</nav>
-					<a class="newadv" href="ad.html">Подать объявление</a>      
-				</div>
-			</div>
-		</div>
-	</header>
-	<section id="search">
-		<div class="container mt-5">
-			<div class="header-search-bar">
-				<div class="input-group">
-					<input class="form-control border-secondary" type="text" name="" placeholder="15100 объявлений рядом">
-					<div class="dropdown input-group-append">
-						<button class="btn border-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Вся страна
-						</button>
-						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-							<a class="dropdown-item" href="#">киев</a>
-							<a class="dropdown-item" href="#">черновцы</a>
-							<a class="dropdown-item" href="#">львов</a>
-						</div>
-					</div>
-					<div class="input-group-append">
-						<button class="form-control border-secondary" type="text" name="" placeholder="Поиск">Поиск<img src="img/icon/Icon feather-search.svg" class="px-2" alt=""></button>
-							<!--<span class="input-group-text" id="my-addon">Поиск</span>-->
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-<main>	
-	<section id="one">
-		<div class="container py-3 my-5">
-			<h2 class="catname">Главные рубрики</h2>
-			<div class="row my-4">
-				<div class="col-md-6 py-3">
-					<div class="catlink">
-						<img class="img-fluid" src="img/auto-parts.4bd633b0.jpg" alt="">
-						<div class="button text-center">
-							<a href="list.html">Автозапчасти</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 py-3">
-					<div class="catlink">
-						<img class="img-fluid" src="img/cars.07fcdbbc.jpg" alt="">
-						<div class="button text-center">
-							<a href="list.html">Автомобили</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="two">
-		<div class="container">
-			<h2 class="catname pb-4">Популярные обьявления</h2>
-			<div class="row">
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>	
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-4-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3">
-							<img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-6-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3">
-							<img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3">
-							<img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-3-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-4-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-6-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-2-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-3-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000
-						</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-4-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>										
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-6-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 my-3">
-					<div class="product-link p-3">
-						<div class="image">
-							<a href="">
-								<img class="img-fluid" src="img/listing-1-322x230.jpg" alt="">
-							</a>
-						</div>
-						<div class="year text-muted">
-							Год: 2006
-						</div>
-						<div class="inner">
-							<h4>
-								<a href="product.html">
-									<strong>
-										BMW M6 Sport Hybrid
-									</strong>
-								</a>
-							</h4>
-						</div>
-						<div class="price pt-2 pb-3"><img class="pr-1" src="img/icon/Icon material-euro-symbol.svg" alt="">$1000</div>
-						<ul class="car-info p-0">
-							<li class="list-unstyled m-0"><span class="text-muted">БУ</span></li>
-							<li><span class="text-muted">2006</span></li>
-							<li><span class="text-muted">Автомат</span></li>
-							<li><span class="text-muted">Бензин</span></li>
-						</ul>
-						<div class="wish-button">
-							<img src="img/icon/Icon ionic-ios-heart-empty.svg" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
+  <div id="loader">
+    <div class="box loading"></div>
+  </div>
+  <!--cookie-->
+  <!-- <div class="cookie">
+    <div class="container">
+      <div class="clearfix">
+        <span>Please note this website requires cookies in order to function correctly, they do not store any specific information about you personally.</span>
+        <div class="f-right"><a href="#" class="button button-type-3 button-orange">Accept Cookies</a><a href="#" class="button button-type-3 button-grey-light">Read More</a></div>
+      </div>
+    </div>
+  </div>-->
+  <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+  <div id="wrapper" class="wrapper-container">
+    <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+  <nav id="mobile-advanced" class="mobile-advanced"></nav>
+  <!-- - - - - - - - - - - - - - Header - - - - - - - - - - - - - - - - -->
+  <header id="header" class="header-4">
+    
+    <!-- top-bar -->
+    <div class="top-bar">
+      
+      <div class="flex-row flex-justify flex-center">
+        <div class="slash-list">
+          <a href="#">Cars</a>
+          <a href="#">Prestige cars</a>
+          <a href="#">Bikes</a>
+          <a href="#">Vans</a>
+          <a href="#">Caravans</a>
+          <a href="#">Trucks</a>
+        </div>
+        
+        <div class="contact-info-menu type-2">
+          <div class="contact-info-item lang-button">
+            <div class="flex-row flex-center">
+              
+              <i class="licon-earth"></i>
+              <div class="item-inner">
+                <a href="#">Language</a>
+                <ul class="dropdown-list">
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">German</a></li>
+                  <li><a href="#">Spanish</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top-header -->
+    <div class="top-header flex-row flex-justify flex-center">
+      <!-- logo -->
+      <div class="logo-wrap">
+        <a href="index.html" class="logo"><img src="images/logo5.png" alt=""></a>
+      </div>
+      <!--main menu-->
+      <div class="menu-holder">
+        
+        <div class="menu-wrap flex-row">
+          <div class="nav-item">
+            
+            <!-- - - - - - - - - - - - - - Navigation - - - - - - - - - - - - - - - - -->
+            <nav id="main-navigation" class="main-navigation">
+              <ul id="menu" class="clearfix">
+                <!-- <li class="dropdown has-megamenu"><a href="#">Cars For Sale</a>
+                <div class="sub-menu-wrap mega-menu full-width-menu">
+                  <div class="mega-submenu">
+                    <h5>By Body Style</h5>
+                    <ul>
+                      <li><a href="#">All</a></li>
+                      <li><a href="#">Sedans</a></li>
+                      <li><a href="#">Coupes</a></li>
+                      <li><a href="#">SUVs</a></li>
+                      <li><a href="#">Crossovers</a></li>
+                      <li><a href="#">Hatchbacks</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-submenu">
+                    <ul>
+                      <li><a href="#">Hybrids</a></li>
+                      <li><a href="#">Convertibles</a></li>
+                      <li><a href="#">Sports Cars</a></li>
+                      <li><a href="#">Minivan</a></li>
+                      <li><a href="#">Vans</a></li>
+                      <li><a href="#">Luxury Cars</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li> -->
+              <li class="with-label"><a href="sell_vehicle.html">Sell My Car <span class="label">free</span></a></li>
+<!--               <li class="dropdown"><a href="#">Reviews</a>
+              
+              <div class="sub-menu-wrap">
+                <ul>
+                  <li><a href="review_list.html">List View</a></li>
+                  <li><a href="review_single.html">Single Review Post</a></li>
+                </ul>
+              </div>
+            </li> -->
+<!--             <li class="dropdown"><a href="#">Blog</a>
+          </li> -->
+        </ul>
+      </nav>
+      <!-- - - - - - - - - - - - - end Navigation - - - - - - - - - - - - - - - -->
+    </div>
+    <a href="#" class="login-btn"></a>
+  </div>
+</div>
+</div>
+</header>
+<!-- - - - - - - - - - - - - end Header - - - - - - - - - - - - - - - -->
+<div class="media-holder type-3" data-bg="images/1920x550_bg1.jpg">
+<div class="container">
 
-		</div>		
-	</section>
-	<section id="three">
-		<div class="container py-4 my-4">
-			<h2 class="catname">Популярное в Автомобилях</h2>
-			<div class="row my-4">
-				<div class="col-lg-3 col-md-4 p-3">
-					<div class="popular d-flex align-items-center">
-						<img class="img-fluid" src="img/popular-category/cars.07fcdbbc.jpg" alt="">
-						<div class="button text-center my-auto mx-auto">
-							<a href="list.html">Легковые автомобили</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 p-3">
-					<div class="popular">
-						<img class="img-fluid" src="img/popular-category/rvs.90d266bb.jpg" alt="">
-						<div class="button text-center">
-							<a href="list.html">Автобусы</a>
-						</div>
-					</div>
-				</div>			
-				<div class="col-lg-3 col-md-4 p-3">
-					<div class="popular">
-						<img class="img-fluid" src="img/popular-category/heavy-equipment.e0ef8902.jpg" alt="">
-						<div class="button text-center">
-							<a href="list.html">Сельгосп техника</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 p-3">
-					<div class="popular">
-						<img class="img-fluid" src="img/popular-category/TuSimple_Self_Drving_Truck_4_copy.0.jpg" alt="">
-						<div class="button text-center">
-							<a href="list.html">Грузовики</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 p-3">
-					<div class="popular">
-						<img class="img-fluid" src="img/popular-category/boats.5faa8742.jpg" alt="">
-						<div class="button text-center">
-							<a href="list.html">Водный транспорт</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 p-3">
-					<div class="popular">
-						<img class="img-fluid" src="img/popular-category/classic-cars.85d89a5c.jpg" alt="">
-						<div class="button text-center">
-							<a href="list.html">Винтажные авто</a>
-						</div>
-					</div>
-				</div>		
-				<div class="col-lg-3 col-md-4 p-3">
-					<div class="popular">
-						<img class="img-fluid" src="img/popular-category/motorcycles.5205fa8b.jpg" alt="">
-						<div class="button text-center">
-							<a href="list.html">Мотоциклы</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 p-3">
-					<div class="popular">
-						<img class="img-fluid" src="img/popular-category/TuSimple_Self_Drving_Truck_4_copy.0.jpg" alt="">
-						<div class="button text-center">
-							<a href="list.html">Прицепы</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="four" class="mb-5">
-		<div class="container">
-			<h2 class="catname mb-4">Автомобильные новости</h2>
-			<div class="row">
-				<div class="col-lg-6 col-md-6">
-					<div class="card mb-4 shadbord rounded border-0 p-3" style="">
-						<img src="img/blog/slider-1-1920x1200.jpg" class="card-img-top" alt="...">
-						<div class="card-body p-0 mt-3">
-							<h5 class="card-title">Тест драйв нового BMW M6 Sport
-							</h5>					    		
-							<p class="card-text">Обзор нового BMW M6 Sport, первые впечатления, характеристики.И стоимость нового автомобиля.Обзор нового BMW M6 Sport, первые впечатления, характеристики.И стоимость нового автомобиля.</p>
-							<div class="mb-3 text-muted">Nov 11
-							</div>
-						</div>
-					</div>
-					<div class="drt text-center mb-3">
-						<a href="post.html" class="btn btn-primary">Смотреть все обзоры</a>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="card shadbord rounded border-0 mb-4">
-						<div class="row no-gutters">
-							<div class="col-md-6 p-3">
-								<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
-							</div>
-							<div class="col-md-6 ">
-								<div class="card-body p-1"> 
-									<p class="mb-auto py-2 pr-2">
-										<a href="post.html" class="my-3">Можно положиться! Топ-10 надежных автомобильных брендов
-										</a>
-									</p>
-									<div class="mb-1 text-muted text-right p-2">
-										<img class="px-2" src="img/icon/Icon material-date-range.svg" alt="">Nov 11
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card shadbord rounded border-0 mb-4">
-						<div class="row no-gutters">
-							<div class="col-md-6 p-3">
-								<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
-							</div>
-							<div class="col-md-6 ">
-								<div class="card-body p-1"> 
-									<p class="mb-auto py-2 pr-2">
-										<a href="post.html" class="my-3">
-											Можно положиться! Топ-10 надежных автомобильных брендов
-										</a>
-									</p>
-									<div class="mb-1 text-muted text-right p-2">
-										<img class="px-2" src="img/icon/Icon material-date-range.svg" alt="">Nov 11
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card shadbord rounded border-0 mb-4">
-						<div class="row no-gutters">
-							<div class="col-md-6 p-3">
-								<img src="img/blog/home-3-370x200.jpg" class="card-img" alt="...">
-							</div>
-							<div class="col-md-6 ">
-								<div class="card-body p-1"> 
-									<p class="mb-auto py-2 pr-2">
-										<a href="post.html" class="my-3">Можно положиться! Топ-10 надежных автомобильных брендов
-										</a>
-									</p>
-									<div class="mb-1 text-muted text-right p-2">
-										<img class="px-2" src="img/icon/Icon material-date-range.svg" alt="">Nov 11
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="drt text-center">
-						<a href="post.html" class="btn btn-primary">Читать больше новостей
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>		
-	</section>
-</main>
-<!-- Footer -->
-	<footer class="page-footer font-small indigo p-3">
-		<div class="container text-center text-md-left mb-5">
-			<div class="row">
-				<hr class="clearfix w-100 d-md-none">
-				<div class="col-md-6 mx-auto">
-					<ul class="list-unstyled">
-						<li class="py-0">
-							<a href="#!">О нас</a>
-						</li>
-						<li class="py-0">
-							<a href="#!">Помощь и обратная связь</a>
-						</li>
-						<li class="py-0">
-							<a href="#!">Платные услуги</a>
-						</li>
-						<li class="py-0">
-							<a href="#!">Для прессы</a>
-						</li>
-						<li class="py-0">
-							<a href="#!">Рекламма на сайте</a>
-						</li>
-						<li class="py-0">
-							<a href="#!">Условия использования</a>
-						</li>
-					</ul>
-				</div>
-				<hr class="clearfix w-100 d-md-none">
-				<div class="col-md-6 mx-auto">
-					<ul class="list-unstyled">
-						<li class="py-0">
-							<a href="#!">Как продавать и покупать</a>
-						</li>
-						<li class="py-0">
-							<a href="#!">Правила безопасности</a>
-						</li>
-						<li class="py-0">
-							<a href="#!">Политика конфиденциальности</a>
-						</li>
-					</ul>   	  	
-					<a href=""><img src="img/icon/icon-footer/Icon awesome-facebook-square.svg" alt=""></a>
-					<a href=""><img src="img/icon/icon-footer/Icon awesome-twitter-square.svg" alt=""></a>
-					<a href=""><img src="img/icon/icon-footer/Icon awesome-instagram.svg" alt=""></a>
-					<a href=""><img src="img/icon/icon-footer/Icon awesome-youtube-square.svg" alt=""></a>
-				</div>
-				<hr class="clearfix w-100 d-md-none">
-			</div>
-		</div>
-	</footer>
-<!-- Footer -->
-	<!-- JavaScript -->
-	<script src="js/bootstrap.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<div class="content-element5">
+  
+  <h1>Volvo V90</h1>
+  <h4>Where form meets function </h4>
+  <div class="btn-list">
+    <a href="#" class="btn">Learn More</a>
+    <a href="#" class="btn">Find One For Sale</a>
+  </div>
+</div>
+<div class="tabs type-2 style-4 tabs-section clearfix">
+  <!--tabs navigation-->
+  <ul class="tabs-nav clearfix">
+    <li>
+      <a href="#tab-1">Find a Car</a>
+    </li>
+    <li>
+      <a href="#tab-2">Find a Part or Accessory</a>
+    </li>
+    <li>
+      <a href="#tab-3">Find a Dealer</a>
+    </li>
+    <li>
+      <a href="#tab-4">Find a Review</a>
+    </li>
+  </ul>
+  <!--tabs content-->
+  <div class="tabs-content">
+    <div id="tab-1">
+      <div class="input-wrapper">
+        <input type="checkbox" name="checkbox-1" id="checkbox-1" checked="">
+        <label for="checkbox-1">All Vehicles</label>
+        <input type="checkbox" name="checkbox-2" id="checkbox-2">
+        <label for="checkbox-2">New</label>
+        <input type="checkbox" name="checkbox-3" id="checkbox-3">
+        <label for="checkbox-3">Used</label>
+        <input type="checkbox" name="checkbox-4" id="checkbox-4">
+        <label for="checkbox-4">Certified Pre-Owned</label>
+      </div>
+      <div class="select-area tab-col-auto">
+        
+        <div class="select-col">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="All Makes">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="select-col">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="All Models">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+          
+        </div>
+        <div class="select-col">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="Max Price">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="select-col">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="Max Mileage">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+          
+        </div>
+        <div class="select-col">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="10 miles from">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+          
+        </div>
+        <div class="select-col">
+          
+          <form class="lineform">
+            <input type="text" placeholder="ZIP">
+          </form>
+        </div>
+        <div class="select-col">
+          <a href="#" class="btn btn-style-2"><i class="licon-magnifier"></i>Search</a>
+        </div>
+      </div>
+      <a href="#" class="info-btn">More search options</a>
+    </div>
+    <div id="tab-2">
+      
+      <p>Find parts and accessories for your vehicle.</p>
+      <div class="select-area tab-col-auto">
+        
+        <div class="select-col">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="All Makes">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="select-col">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="All Models">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+          
+        </div>
+        <div class="select-col">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="Year">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="select-col col-extra2">
+          
+          <form class="lineform">
+            <input type="text" placeholder="a product, brand or keyword">
+          </form>
+          
+        </div>
+        <div class="select-col">
+          <a href="#" class="btn btn-style-3"><i class="licon-magnifier"></i>Search</a>
+        </div>
+      </div>
+      <a href="#" class="info-btn">More search options</a>
+    </div>
+    <div id="tab-3">
+      <p>Find dealers who specialize in new, certified and used cars or trucks.</p>
+      <div class="select-area tab-col-auto">
+        
+        <div class="select-col col-extra2">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="All Makes">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="select-col">
+          
+          <form class="lineform">
+            <input type="text" placeholder="ZIP">
+          </form>
+          
+        </div>
+        <div class="select-col">
+          <a href="#" class="btn btn-style-3"><i class="licon-magnifier"></i>Search</a>
+        </div>
+      </div>
+    </div>
+    <div id="tab-4">
+      <p>Find articles, video reviews and expert reviews.</p>
+      <div class="select-area tab-col-auto">
+        
+        <div class="select-col">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="All Makes">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="select-col">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="All Models">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+          
+        </div>
+        <div class="select-col">
+          
+          <div class="auto-custom-select">
+            <select data-default-text="Year">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="select-col">
+          <a href="#" class="btn btn-style-3"><i class="licon-magnifier"></i>Search</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+<!-- - - - - - - - - - - - - - Content - - - - - - - - - - - - - - - - -->
+<div id="content">
+<div class="page-section-bg type-2">
+<div class="container">
+  
+  <div class="our-services">
+    
+    <div class="row">
+      <div class="col-sm-4">
+        
+        <div class="service-item">
+          <h3 class="service-title">Sell My Car</h3>
+          <p>Make more money when you sell your car yourself. Choose a package and price that works for you.</p>
+          <a href="#" class="btn btn-style-3">Sell</a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        
+        <div class="service-item">
+          <h3 class="service-title">Trade My Car</h3>
+          <p>Make more money when you sell your car yourself. Choose a package and price that works for you.</p>
+          <a href="#" class="btn btn-style-3">Trade</a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        
+        <div class="service-item">
+          <h3 class="service-title">Value My Car</h3>
+          <p>Make more money when you sell your car yourself. Choose a package and price that works for you.</p>
+          <a href="#" class="btn btn-style-3">Value</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="page-section">
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      
+      <div class="products-holder">
+        
+        <h3 class="section-title">Browse Car Inventory By</h3>
+        <div class="tabs tabs-section style-2 clearfix">
+          <!--tabs navigation-->
+          <ul class="tabs-nav clearfix">
+            <li>
+              <a href="#tab-5">Body Style</a>
+            </li>
+            <li>
+              <a href="#tab-6">Make</a>
+            </li>
+            <li>
+              <a href="#tab-7">Price</a>
+            </li>
+          </ul>
+          <!--tabs content-->
+          <div class="tabs-content">
+            <div id="tab-5">
+              <div class="row flex-row">
+                
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                  
+                  <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+                  <div class="product">
+                    
+                    <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                    <a href="cars_grid.html"><img src="images/165x110_img1.jpg" alt=""></a>
+                    <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                    <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                    <div class="product-description align-center">
+                      <h6 class="product-name"><a href="cars_grid.html">Crossover</a></h6>
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                  
+                  <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+                  <div class="product">
+                    
+                    <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                    <a href="cars_grid.html"><img src="images/165x110_img2.jpg" alt=""></a>
+                    <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                    <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                    <div class="product-description align-center">
+                      <h6 class="product-name"><a href="cars_grid.html">SUV</a></h6>
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                  
+                  <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+                  <div class="product">
+                    
+                    <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                    <a href="cars_grid.html"><img src="images/165x110_img3.jpg" alt=""></a>
+                    <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                    <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                    <div class="product-description align-center">
+                      <h6 class="product-name"><a href="cars_grid.html">Pickup Truck</a></h6>
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                  
+                  <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+                  <div class="product">
+                    
+                    <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                    <a href="cars_grid.html"><img src="images/165x110_img4.jpg" alt=""></a>
+                    <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                    <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                    <div class="product-description align-center">
+                      <h6 class="product-name"><a href="cars_grid.html">Convertible</a></h6>
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                  
+                  <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+                  <div class="product">
+                    
+                    <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                    <a href="cars_grid.html"><img src="images/165x110_img5.jpg" alt=""></a>
+                    <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                    <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                    <div class="product-description align-center">
+                      <h6 class="product-name"><a href="cars_grid.html">Sedan</a></h6>
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                  
+                  <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+                  <div class="product">
+                    
+                    <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                    <a href="cars_grid.html"><img src="images/165x110_img6.jpg" alt=""></a>
+                    <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                    <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                    <div class="product-description align-center">
+                      <h6 class="product-name"><a href="cars_grid.html">Coupe</a></h6>
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                  
+                  <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+                  <div class="product">
+                    
+                    <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                    <a href="cars_grid.html"><img src="images/165x110_img7.jpg" alt=""></a>
+                    <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                    <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                    <div class="product-description align-center">
+                      <h6 class="product-name"><a href="cars_grid.html">Luxury Car</a></h6>
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                  
+                  <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+                  <div class="product">
+                    
+                    <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                    <a href="cars_grid.html"><img src="images/165x110_img8.jpg" alt=""></a>
+                    <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                    <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                    <div class="product-description align-center">
+                      <h6 class="product-name"><a href="cars_grid.html">Wagon/Hatchback</a></h6>
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                  
+                  <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+                  <div class="product">
+                    
+                    <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                    <a href="cars_grid.html"><img src="images/165x110_img9.jpg" alt=""></a>
+                    <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                    <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                    <div class="product-description align-center">
+                      <h6 class="product-name"><a href="cars_grid.html">Green Car/Hybrid</a></h6>
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                  
+                  <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+                  <div class="product">
+                    
+                    <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                    <a href="cars_grid.html"><img src="images/165x110_img10.jpg" alt=""></a>
+                    <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                    <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                    <div class="product-description align-center">
+                      <h6 class="product-name"><a href="cars_grid.html">Sports Car</a></h6>
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                  
+                  <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+                  <div class="product">
+                    
+                    <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                    <a href="cars_grid.html"><img src="images/165x110_img11.jpg" alt=""></a>
+                    <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                    <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                    <div class="product-description align-center">
+                      <h6 class="product-name"><a href="cars_grid.html">Minivan/Van</a></h6>
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="tab-6">
+              <div class="row">
+                <div class="col-sm-3">
+                  
+                  <ul class="custom-list type-5">
+                    <li><a href="cars_grid.html">Acura</a></li>
+                    <li><a href="cars_grid.html">Alfa Romeo</a></li>
+                    <li><a href="cars_grid.html">Aston Martin</a></li>
+                    <li><a href="cars_grid.html">Audi</a></li>
+                    <li><a href="cars_grid.html">Bentley</a></li>
+                    <li><a href="cars_grid.html">BMW</a></li>
+                    <li><a href="cars_grid.html">Buick</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3">
+                  
+                  <ul class="custom-list type-5">
+                    <li><a href="cars_grid.html">Cadillac</a></li>
+                    <li><a href="cars_grid.html">Chevrolet</a></li>
+                    <li><a href="cars_grid.html">Chrysler</a></li>
+                    <li><a href="cars_grid.html">Dodge</a></li>
+                    <li><a href="cars_grid.html">Ferrari</a></li>
+                    <li><a href="cars_grid.html">Fiat</a></li>
+                    <li><a href="cars_grid.html">Ford</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3">
+                  
+                  <ul class="custom-list type-5">
+                    <li><a href="cars_grid.html">Genesis</a></li>
+                    <li><a href="cars_grid.html">GMC</a></li>
+                    <li><a href="cars_grid.html">Honda</a></li>
+                    <li><a href="cars_grid.html">Hyundai</a></li>
+                    <li><a href="cars_grid.html">Infiniti</a></li>
+                    <li><a href="cars_grid.html">Jaguar</a></li>
+                    <li><a href="cars_grid.html">Jeep</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3">
+                  
+                  <ul class="custom-list type-5">
+                    <li><a href="cars_grid.html">Kia</a></li>
+                    <li><a href="cars_grid.html">Lamborghini</a></li>
+                    <li><a href="cars_grid.html">Land Rover</a></li>
+                    <li><a href="cars_grid.html">Lexus</a></li>
+                    <li><a href="cars_grid.html">Lincoln</a></li>
+                    <li><a href="cars_grid.html">Maserati</a></li>
+                    <li><a href="cars_grid.html">Mazda</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div id="tab-7">
+              <div class="row">
+                <div class="col-sm-3">
+                  
+                  <ul class="custom-list type-5">
+                    <li><a href="cars_grid.html">Less than $10,000</a></li>
+                    <li><a href="cars_grid.html">$10,001-$15,000</a></li>
+                    <li><a href="cars_grid.html">$15,001-$20,000</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3">
+                  
+                  <ul class="custom-list type-5">
+                    <li><a href="cars_grid.html">$20,001-$30,000</a></li>
+                    <li><a href="cars_grid.html">$30,001-$40,000</a></li>
+                    <li><a href="cars_grid.html">$40,001-$50,000</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3">
+                  
+                  <ul class="custom-list type-5">
+                    <li><a href="cars_grid.html">$50,001-$75,000</a></li>
+                    <li><a href="cars_grid.html">$75,001-$100,000</a></li>
+                    <li><a href="cars_grid.html">$100,001-$125,000</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3">
+                  
+                  <ul class="custom-list type-5">
+                    <li><a href="cars_grid.html">$125,001-$150,000</a></li>
+                    <li><a href="cars_grid.html">More than $150,000</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      
+      <div class="align-center">
+        <a href="#"><img src="images/300x600_banner1.jpg" alt=""></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="page-section-bg">
+
+<div class="container">
+  
+  <h3 class="section-title">Used Car Inventory</h3>
+  <div class="products-holder">
+    
+    <div class="tabs tabs-section style-2 clearfix">
+      <!--tabs navigation-->
+      <ul class="tabs-nav clearfix">
+        <li>
+          <a href="#tab-8">Featured</a>
+        </li>
+        <li>
+          <a href="#tab-9">Latest</a>
+        </li>
+        <li>
+          <a href="#tab-10">Popular</a>
+        </li>
+      </ul>
+      <!--tabs content-->
+      <div class="tabs-content">
+        <div id="tab-8">
+          <div class="row flex-row">
+            
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img3.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Ford Fusion Hybrid</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $26,459
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>241</li>
+                      <li><span>Location</span>Within 4 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img4.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2017 Chevrolet Colorado</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $21,035
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>220</li>
+                      <li><span>Location</span>Within 10 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img5.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Porsche Boxster</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $52,529
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>90</li>
+                      <li><span>Location</span>Within 25 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img6.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Honda Odyssey</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $29,929
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>230</li>
+                      <li><span>Location</span>Within 5 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img7.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2017 FIAT 500</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $12,935
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>105</li>
+                      <li><span>Location</span>Within 14 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img8.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Porsche Cayenne</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $88,599
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>360</li>
+                      <li><span>Location</span>Within 20 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img9.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Dodge Grand Caravan</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $45,287
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>590</li>
+                      <li><span>Location</span>Within 10 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img10.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2017 Volvo V60</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $39,444
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>410</li>
+                      <li><span>Location</span>Within 3 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tab-9">
+          <div class="row flex-row">
+            
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img3.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Ford Fusion Hybrid</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $26,459
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>241</li>
+                      <li><span>Location</span>Within 4 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img4.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2017 Chevrolet Colorado</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $21,035
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>220</li>
+                      <li><span>Location</span>Within 10 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img5.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Porsche Boxster</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $52,529
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>90</li>
+                      <li><span>Location</span>Within 25 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img6.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Honda Odyssey</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $29,929
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>230</li>
+                      <li><span>Location</span>Within 5 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="v"><img src="images/262x173_img7.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="v">2017 FIAT 500</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $12,935
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>105</li>
+                      <li><span>Location</span>Within 14 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="v">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img8.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Porsche Cayenne</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $88,599
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>360</li>
+                      <li><span>Location</span>Within 20 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img9.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Dodge Grand Caravan</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $45,287
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>590</li>
+                      <li><span>Location</span>Within 10 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img10.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2017 Volvo V60</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $39,444
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>410</li>
+                      <li><span>Location</span>Within 3 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tab-10">
+          <div class="row flex-row">
+            
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img3.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Ford Fusion Hybrid</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $26,459
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>241</li>
+                      <li><span>Location</span>Within 4 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="v"><img src="images/262x173_img4.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="v">2017 Chevrolet Colorado</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $21,035
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>220</li>
+                      <li><span>Location</span>Within 10 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img5.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Porsche Boxster</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $52,529
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>90</li>
+                      <li><span>Location</span>Within 25 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img6.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Honda Odyssey</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $29,929
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>230</li>
+                      <li><span>Location</span>Within 5 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img7.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2017 FIAT 500</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $12,935
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>105</li>
+                      <li><span>Location</span>Within 14 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img8.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Porsche Cayenne</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $88,599
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>360</li>
+                      <li><span>Location</span>Within 20 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img9.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2016 Dodge Grand Caravan</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $45,287
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>590</li>
+                      <li><span>Location</span>Within 10 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="cars_single.html"><img src="images/262x173_img10.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="cars_single.html">2017 Volvo V60</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $39,444
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>410</li>
+                      <li><span>Location</span>Within 3 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="cars_single.html">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="align-center">
+    <a href="#" class="btn">Show All</a>
+  </div>
+</div>
+</div>
+<div class="page-section parallax-section" data-bg="images/1920x1000_bg2.jpg">
+
+<div class="container">
+  
+  <h3 class="section-title">New car Inventory</h3>
+  <div class="products-holder">
+    
+    <div class="tabs tabs-section style-2 clearfix">
+      <!--tabs navigation-->
+      <ul class="tabs-nav clearfix">
+        <li>
+          <a href="#tab-11">Featured</a>
+        </li>
+        <li>
+          <a href="#tab-12">Latest</a>
+        </li>
+        <li>
+          <a href="#tab-13">Popular</a>
+        </li>
+      </ul>
+      <!--tabs content-->
+      <div class="tabs-content">
+        <div id="tab-11">
+          <div class="row flex-row">
+            
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img3.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2016 Ford Fusion Hybrid</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $26,459
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>241</li>
+                      <li><span>Location</span>Within 4 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img4.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2017 Chevrolet Colorado</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $21,035
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>220</li>
+                      <li><span>Location</span>Within 10 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img5.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2016 Porsche Boxster</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $52,529
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>90</li>
+                      <li><span>Location</span>Within 25 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img6.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2016 Honda Odyssey</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $29,929
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>230</li>
+                      <li><span>Location</span>Within 5 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tab-12">
+          <div class="row flex-row">
+            
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img3.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2016 Ford Fusion Hybrid</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $26,459
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>241</li>
+                      <li><span>Location</span>Within 4 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img4.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2017 Chevrolet Colorado</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $21,035
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>220</li>
+                      <li><span>Location</span>Within 10 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img5.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2016 Porsche Boxster</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $52,529
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>90</li>
+                      <li><span>Location</span>Within 25 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img6.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2016 Honda Odyssey</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $29,929
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>230</li>
+                      <li><span>Location</span>Within 5 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tab-13">
+          <div class="row flex-row">
+            
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img3.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2016 Ford Fusion Hybrid</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $26,459
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>241</li>
+                      <li><span>Location</span>Within 4 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img4.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2017 Chevrolet Colorado</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $21,035
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>220</li>
+                      <li><span>Location</span>Within 10 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img5.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2016 Porsche Boxster</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $52,529
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>90</li>
+                      <li><span>Location</span>Within 25 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/262x173_img6.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2016 Honda Odyssey</a></h5>
+                  <div class="pricing-area">
+                    <div class="product-price">
+                      $29,929
+                    </div>
+                  </div>
+                  <div class="model-loc">
+                    <ul>
+                      <li><span>Mileage</span>230</li>
+                      <li><span>Location</span>Within 5 km</li>
+                    </ul>
+                  </div>
+                  <div class="model-info">
+                    <a href="#">More Info</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="align-center">
+    <a href="#" class="btn">Show All</a>
+  </div>
+</div>
+</div>
+<div class="page-section3">
+
+<div class="container">
+  <div class="align-center"><a href="#"><img src="images/banner4.jpg" alt=""></a></div>
+</div>
+</div>
+<div class="page-section-bg">
+
+<div class="container">
+  
+  <h3 class="section-title">Parts & Accessories</h3>
+  <div class="tabs tabs-section style-2 clearfix">
+    <!--tabs navigation-->
+    <ul class="tabs-nav clearfix">
+      <li>
+        <a href="#tab-14">Featured</a>
+      </li>
+      <li>
+        <a href="#tab-15">Latest</a>
+      </li>
+      <li>
+        <a href="#tab-16">Popular</a>
+      </li>
+    </ul>
+    <!--tabs content-->
+    <div class="tabs-content">
+      <div id="tab-14" class="mad-tab">
+        <div class="carousel-type-3">
+          
+          <div class="owl-carousel" data-max-items="4" data-item-margin="30">
+            
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img4.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">Slimline License Plate Frame - Black</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $42
+                    </div>
+                    <ul class="rating">
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li class="empty-half"><i class="licon-star"></i></li>
+                      <li class="empty"><i class="licon-star"></i></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img5.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">9003/HB2 X-tremeVision Bulbs</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $39
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img6.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">BMW M235i Coupe Staggered Tires</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $150
+                    </div>
+                    <ul class="rating">
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li class="empty"><i class="licon-star"></i></li>
+                      <li class="empty"><i class="licon-star"></i></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img7.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">Extendable Power Wrench Set 1334</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $22,39
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+          </div>
+        </div>
+      </div>
+      <div id="tab-15" class="mad-tab">
+        <div class="carousel-type-3">
+          
+          <div class="owl-carousel" data-max-items="4" data-item-margin="30">
+            
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img4.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">Slimline License Plate Frame - Black</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $42
+                    </div>
+                    <ul class="rating">
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li class="empty-half"><i class="licon-star"></i></li>
+                      <li class="empty"><i class="licon-star"></i></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img5.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">9003/HB2 X-tremeVision Bulbs</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $39
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img6.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2015 BMW M235i Coupe Staggered Tires</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $150
+                    </div>
+                    <ul class="rating">
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li class="empty"><i class="licon-star"></i></li>
+                      <li class="empty"><i class="licon-star"></i></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img7.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">Extendable Power Wrench Set 1334</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $22,39
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+          </div>
+        </div>
+      </div>
+      <div id="tab-16" class="mad-tab">
+        <div class="carousel-type-3">
+          
+          <div class="owl-carousel" data-max-items="4" data-item-margin="30">
+            
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img4.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">Slimline License Plate Frame - Black</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $42
+                    </div>
+                    <ul class="rating">
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li class="empty-half"><i class="licon-star"></i></li>
+                      <li class="empty"><i class="licon-star"></i></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img5.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">9003/HB2 X-tremeVision Bulbs</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $39
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img6.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">2015 BMW M235i Coupe Staggered Tires</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $150
+                    </div>
+                    <ul class="rating">
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li><i class="licon-star"></i></li>
+                      <li class="empty"><i class="licon-star"></i></li>
+                      <li class="empty"><i class="licon-star"></i></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+            <!-- Slide -->
+            <div class="item-carousel">
+              <!-- Carousel Item -->
+              <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+              <div class="product">
+                
+                <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                <a href="#"><img src="images/263x263_img7.jpg" alt=""></a>
+                <!-- - - - - - - - - - - - - - End of Product Image - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - Product Description - - - - - - - - - - - - - - - - -->
+                <div class="product-description">
+                  <h5 class="product-name"><a href="#">Extendable Power Wrench Set 1334</a></h5>
+                  <div class="pricing-area flex-row flex-justify">
+                    <div class="product-price">
+                      $22,39
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-small btn-style-3"><i class="licon-cart"></i>Add to Cart</a>
+                </div>
+                <!-- - - - - - - - - - - - - - End of Product Description - - - - - - - - - - - - - - - - -->
+              </div>
+              <!-- /Carousel Item -->
+            </div>
+            <!-- /Slide -->
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="align-center"><a href="#" class="btn">Show All</a></div>
+</div>
+</div>
+<div class="page-section">
+
+<div class="container">
+  
+  <h3 class="section-title">Popular makes</h3>
+  <div class="carousel-type-3">
+    
+    <div class="owl-carousel" data-max-items="6" data-item-margin="30">
+      
+      <!-- Slide -->
+      <div class="item-carousel">
+        <!-- Carousel Item -->
+        <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+        <a href="#" class="brend-item"><img src="images/165x165_brend1.jpg" alt=""></a>
+        <!-- /Carousel Item -->
+      </div>
+      <!-- /Slide -->
+      <!-- Slide -->
+      <div class="item-carousel">
+        <!-- Carousel Item -->
+        <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+        <a href="#" class="brend-item"><img src="images/165x165_brend2.jpg" alt=""></a>
+        <!-- /Carousel Item -->
+      </div>
+      <!-- /Slide -->
+      <!-- Slide -->
+      <div class="item-carousel">
+        <!-- Carousel Item -->
+        <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+        <a href="#" class="brend-item"><img src="images/165x165_brend3.jpg" alt=""></a>
+        <!-- /Carousel Item -->
+      </div>
+      <!-- /Slide -->
+      <!-- Slide -->
+      <div class="item-carousel">
+        <!-- Carousel Item -->
+        <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+        <a href="#" class="brend-item"><img src="images/165x165_brend4.jpg" alt=""></a>
+        <!-- /Carousel Item -->
+      </div>
+      <!-- /Slide -->
+      <!-- Slide -->
+      <div class="item-carousel">
+        <!-- Carousel Item -->
+        <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+        <a href="#" class="brend-item"><img src="images/165x165_brend5.jpg" alt=""></a>
+        <!-- /Carousel Item -->
+      </div>
+      <!-- /Slide -->
+      <!-- Slide -->
+      <div class="item-carousel">
+        <!-- Carousel Item -->
+        <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
+        <a href="#" class="brend-item"><img src="images/165x165_brend6.jpg" alt=""></a>
+        <!-- /Carousel Item -->
+      </div>
+      <!-- /Slide -->
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- - - - - - - - - - - - - end Content - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+<footer id="footer" class="footer-4">
+
+<!-- pre footer -->
+<div class="pre-footer">
+
+<div class="container">
+  
+  <div class="row flex-row flex-center">
+    <div class="col-md-7 col-sm-12">
+      
+      <form id="newsletter">
+        <p class="f-left align-right">Sign up now and get exclusive offers <br> and news straight to your inbox!</p>
+        <button type="submit" class="btn-email btn btn-style-2 f-right" data-type="submit"><i class="licon-envelope"></i></button>
+        <div class="wrapper">
+          <input type="email" placeholder="Enter your email address" name="newsletter-email">
+        </div>
+      </form>
+    </div>
+    <div class="col-md-5 col-sm-12">
+      
+      <div class="flex-row">
+        <span>Connect With Us</span>
+        <ul class="social-icons">
+          
+          <li><a href="#"><i class="icon-facebook"></i></a></li>
+          <li><a href="#"><i class="icon-twitter"></i></a></li>
+          <li><a href="#"><i class="icon-youtube-play"></i></a></li>
+          <li><a href="#"><i class="icon-gplus-3"></i></a></li>
+          <li><a href="#"><i class="icon-instagram-5"></i></a></li>
+          <li><a href="#"><i class="icon-linkedin-3"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Top footer -->
+<div class="top-footer">
+
+<div class="container extra">
+  
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-12">
+      
+      <div class="widget">
+        <h5 class="widget-title">About Us</h5>
+        <p>
+          Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede.
+        </p>
+        <p>Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. </p>
+        
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+      
+      <div class="widget">
+        <h5 class="widget-title">Company</h5>
+        <ul class="info-links">
+          
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">News &amp; Tips</a></li>
+          <li><a href="#">Site Map</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+      <div class="widget">
+        <h5 class="widget-title">Services</h5>
+        <ul class="info-links">
+          
+          <li><a href="#">New Cars For Sale</a></li>
+          <li><a href="#">Pre-owend Cars</a></li>
+          <li><a href="#">Sell My Car</a></li>
+          <li><a href="#">Car Valuations</a></li>
+          <li><a href="#">Financing & Insurance</a></li>
+          <li><a href="#">Service & Repair</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+      
+      <div class="widget">
+        <h5 class="widget-title">Locations</h5>
+        <ul class="info-links">
+          
+          <li><a href="#">Alabama</a></li>
+          <li><a href="#">California</a></li>
+          <li><a href="#">Illinois</a></li>
+          <li><a href="#">Kansas</a></li>
+          <li><a href="#">Financing & Insurance</a></li>
+          <li><a href="#">Service & Repair</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12">
+      
+      <div class="widget">
+        <h5 class="widget-title">Latest News & Tips</h5>
+        <article class="entry">
+          
+          <!-- - - - - - - - - - - - - - Attachment - - - - - - - - - - - - - - - - -->
+          <div class="thumbnail-attachment">
+            <a href="#"><img src="images/130x87_img1.jpg" alt=""></a>
+          </div>
+          <!-- - - - - - - - - - - - - - End of Attachment - - - - - - - - - - - - - - - - -->
+          <!-- - - - - - - - - - - - - - Entry body - - - - - - - - - - - - - - - - -->
+          <div class="entry-body">
+            <!-- - - - - - - - - - - - - - Entry Meta - - - - - - - - - - - - - - - - -->
+            <div class="entry-meta">
+              <time class="entry-date" datetime="2016-01-27">December 28, 2020</time>
+            </div>
+            <!-- - - - - - - - - - - - - - End of Meta - - - - - - - - - - - - - - - - -->
+            <h5 class="entry-title"><a href="#">Mauris Fermentum Dictum Magna</a></h5>
+          </div>
+          <!-- - - - - - - - - - - - - - End of Entry body - - - - - - - - - - - - - - - - -->
+        </article>
+        <article class="entry">
+          
+          <!-- - - - - - - - - - - - - - Attachment - - - - - - - - - - - - - - - - -->
+          <div class="thumbnail-attachment">
+            <a href="#"><img src="images/130x87_img2.jpg" alt=""></a>
+          </div>
+          <!-- - - - - - - - - - - - - - End of Attachment - - - - - - - - - - - - - - - - -->
+          <!-- - - - - - - - - - - - - - Entry body - - - - - - - - - - - - - - - - -->
+          <div class="entry-body">
+            <!-- - - - - - - - - - - - - - Entry Meta - - - - - - - - - - - - - - - - -->
+            <div class="entry-meta">
+              <time class="entry-date" datetime="2016-01-27">December 23, 2020</time>
+            </div>
+            <!-- - - - - - - - - - - - - - End of Meta - - - - - - - - - - - - - - - - -->
+            <h5 class="entry-title"><a href="#">Vestibulum Ante Ipsum Primis in Faucibus </a></h5>
+          </div>
+          <!-- - - - - - - - - - - - - - End of Entry body - - - - - - - - - - - - - - - - -->
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Copyright -->
+<div class="copyright-section">
+
+<div class="container">
+  
+  <div class="copyright align-center">Copyright AVTOZON © 2021. All Rights Reserved.</div>
+</div>
+</div>
+</footer>
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - - - -->
+</div>
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+<!-- JS Libs & Plugins
+============================================ -->
+<script src="js/libs/jquery.modernizr.js"></script>
+<script src="js/libs/jquery-2.2.4.min.js"></script>
+<script src="js/libs/jquery-ui.min.js"></script>
+<script src="plugins/mad.customselect.js"></script>
+<script src="plugins/sticky-sidebar.js"></script>
+<script src="plugins/jquery.queryloader2.min.js"></script>
+<script src="plugins/owl.carousel.min.js"></script>
+<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+<!-- JS theme files
+============================================ -->
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+
 </body>
 </html>
